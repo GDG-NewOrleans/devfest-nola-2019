@@ -11,3 +11,7 @@ Run `npm run dev` to start the development server and go to http://localhost:300
 To deploy as a static website, run `npm export` which both performs the build and the export. Now you can deploy the `out` directory to any static hosting service.
 
 The master branch is automatically statically deployed to https://happy-lichterman-b0a93a.netlify.com/.
+
+## Updating Source Data
+
+The source data is written in YAML because it's just easier. If you update one of the YAML data source files in the `data/` folder, run `npm run data` to update the JSON source files with the new data.
