@@ -6,6 +6,7 @@ const inputFiles = [
   './data/schedule.yml',
   './data/mc.yml',
   './data/sponsors.yml',
+  './data/organizers.yml',
 ]
 
 for (let file of inputFiles) {

@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+import PersonList from "../components/PersonList";
+const organizers = require('../data/organizers.yml.json')
 
 export default () => (
   <Layout>
@@ -14,5 +16,8 @@ export default () => (
 
     <h2 id="sponsors">Sponsors</h2>
     <p>RPC XML static cache cherry pick greenfield pull request distributed systems architecture antipattern. Edge scalable TL i S3 chmod. First in first out progressive web app internet button free as in beer compilation behavior-driven design programmer duck typing.</p>
+
+    <h2 id="organizers">Organizers</h2>
+    <PersonList people={organizers} />
   </Layout>
 )
