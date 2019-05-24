@@ -1,5 +1,11 @@
+import styled from 'styled-components'
 import Head from 'next/head'
-import Navbar from './Navbar';
+import { Navbar } from './Navbar';
+
+const Main = styled.main`
+  margin-top: 70px;
+  padding: 40px 20px 20px 20px;
+`
 
 const Layout = (props) => (
   <div>
@@ -11,7 +17,7 @@ const Layout = (props) => (
       <style>
         {`
           body{
-            margin:20px;color:#555555;
+            color:#555555;
             font-family: 'Open Sans', sans-serif;}
           body h1 {
             font-size: 1.6em;
@@ -23,7 +29,9 @@ const Layout = (props) => (
       </style>
     </Head>
     <Navbar/>
-    {props.children}
+    <Main>
+      {props.children}
+    </Main>
   </div>
 )
 
