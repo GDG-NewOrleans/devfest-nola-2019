@@ -1,10 +1,15 @@
+import styled from 'styled-components'
 import Layout from "../components/Layout";
 import PersonList from "../components/PersonList";
 const organizers = require('../data/organizers.yml.json')
 
+const Title = styled.h1`
+  font-family: 'Product Sans', sans-serif;
+`
+
 export default () => (
   <Layout>
-    <h1>DevFest New Orleans 2019</h1>
+    <Title>DevFest New Orleans 2019</Title>
     <p>Big fat header and description</p>
     <p>Build tool domain singleton OTP FIFO raspberry pi frontend Ruby XML developer. Cache diversity and inclusion compile atomic design domain keycaps tabs vs spaces. Transaction streams XML quick sort private var open source. Git npm ping legacy code incognito little Bobby Tables Byzantine fault tolerance lang driver. Environment pairing security ICO antipattern whiteboard.</p>
 

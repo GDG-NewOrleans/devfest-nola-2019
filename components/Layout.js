@@ -12,7 +12,7 @@ const Layout = (props) => (
       <title>DevFest New Orleans 2019</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin></link>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Product+Sans:400&amp;lang=en&amp;display=swap" rel="stylesheet"></link>
       <style>
         {'body {margin: 20px}'}
       </style>
