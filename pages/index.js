@@ -1,7 +1,9 @@
 import Layout from "../components/Layout";
 import PersonList from "../components/PersonList";
 import AnchorButton from "../components/elements/AnchorButton";
+import SponsorList from "../components/SponsorList";
 const organizers = require('../data/organizers.yml.json')
+const sponsors = require('../data/sponsors.yml.json')
 
 export default () => (
   <Layout>
@@ -17,7 +19,7 @@ export default () => (
     <AnchorButton href="https://www.papercall.io/devfest-neworleans">Submit your talk</AnchorButton>
 
     <h2 id="sponsors">Sponsors</h2>
-    <p>RPC XML static cache cherry pick greenfield pull request distributed systems architecture antipattern. Edge scalable TL i S3 chmod. First in first out progressive web app internet button free as in beer compilation behavior-driven design programmer duck typing.</p>
+    <SponsorList sponsors={sponsors} />
 
     <h2 id="organizers">Organizers</h2>
     <PersonList people={organizers} />
