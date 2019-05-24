@@ -4,15 +4,16 @@ import TwitterLogo from './icons/twitter.svg'
 import LinkedInLogo from './icons/linkedin-in.svg'
 import WebsiteLogo from './icons/globe-africa.svg'
 import BlogLogo from './icons/pen-nib.svg'
+import theme from './theme'
 
 const StyledLink = styled.a`
   margin-right: 8px;
   svg {
     width: 32px;
-    fill: red;
+    fill: ${theme.colors.red};
   }
   svg:hover {
-    fill: pink;
+    fill: ${theme.colors.redLight};
   }
 `
 

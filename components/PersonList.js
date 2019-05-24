@@ -1,4 +1,9 @@
+import styled from 'styled-components'
 import PersonCard from "./PersonCard";
+
+const StyledCardDeck = styled.div`
+  display: flex;
+`
 
 const PersonList = ({people}) => {
   const cards = people.map(person => (
@@ -6,9 +11,9 @@ const PersonList = ({people}) => {
   ))
 
   return (
-    <div>
+    <StyledCardDeck>
       {cards}
-    </div>
+    </StyledCardDeck>
   )
 }
 
