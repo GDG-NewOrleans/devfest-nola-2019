@@ -3,8 +3,10 @@ import Head from 'next/head'
 import { Navbar } from './Navbar';
 
 const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 70px;
-  padding: 40px 20px 20px 20px;
 `
 
 const Layout = (props) => (

@@ -3,6 +3,7 @@ import PersonCard from "./PersonCard";
 
 const StyledCardDeck = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `
 
 const PersonList = ({people}) => {
