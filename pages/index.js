@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Layout from "../components/Layout";
 import PersonList from "../components/PersonList";
 import AnchorButton from "../components/elements/AnchorButton";
+import Section from "../components/elements/Section";
 import SponsorList from "../components/SponsorList";
 import GDGLogo from '../components/icons/gdg_logo.svg'
 const organizers = require('../data/organizers.yml.json')
@@ -10,10 +11,6 @@ const sponsors = require('../data/sponsors.yml.json')
 const Title = styled.h1`
   font-family: 'Product Sans', sans-serif;
   font-size: 3em;
-`
-
-const Section = styled.section`
-  padding: 4em 0;
 `
 
 export default () => (

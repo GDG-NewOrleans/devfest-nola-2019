@@ -1,8 +1,9 @@
 import Layout from "../components/Layout";
+import PageTitle from "../components/elements/PageTitle";
 
 const conduct = () => (
   <Layout>
-    <h1>Event Code of Conduct &amp; Anti-Harrassment Policy</h1>
+    <PageTitle>Event Code of Conduct &amp; Anti-Harrassment Policy</PageTitle>
 
     <p>GDG New Orleans and Women Techmakers New Orleans is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. GDG New Orleans and Women Techmakers New Orleans takes violations of our policy seriously and will respond appropriately.</p>
 
