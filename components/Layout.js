@@ -18,7 +18,8 @@ const Layout = (props) => (
         {`
           body{
             color:#555555;
-            font-family: 'Open Sans', sans-serif;}
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;}
           body h1 {
             font-size: 1.6em;
             font-family: 'Product Sans', sans-serif;}

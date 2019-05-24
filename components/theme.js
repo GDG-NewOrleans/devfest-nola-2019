@@ -14,5 +14,6 @@ export default {
     yellowLight: '#fcd151',
     green: '#0F9D58',
     greenLight: '#5aefa7',
+    blueExtraLight: '#e9f1fe',
   }
 }

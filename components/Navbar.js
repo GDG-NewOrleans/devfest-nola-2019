@@ -3,8 +3,7 @@ import theme from './theme'
 import Link from 'next/link'
 import GDGLogo from './icons/gdg_logo.svg'
 import AnchorButton from './elements/AnchorButton'
-
-// import MobileMenu from './MobileMenu'
+import MobileMenu from './MobileNav'
 
 export const NAV_BREAKPOINT = '800px'
 
@@ -13,9 +12,6 @@ const StyledLink = styled.a`
   font-weight: 700;
   padding: 1em;
   text-decoration: none;
-  &.active {
-    border-bottom: 4px solid ${theme.colors.red};
-  }
   &:hover {
     color: ${theme.colors.blueLight};
   }
@@ -66,7 +62,7 @@ export const Navbar = () => {
           <AnchorButton href="#" medium="true">Register now</AnchorButton>
         </NavLinks>
       </NavDesktopContainer>
-      {/* {<MobileMenu />} */}
+      <MobileMenu />
     </Nav>
   )
 }

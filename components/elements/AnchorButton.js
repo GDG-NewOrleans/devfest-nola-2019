@@ -1,5 +1,9 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import theme from '../theme'
+
+const smallStyles = `
+  font-size: 0.75em;
+`
 
 const StyledButton = styled.a`
   background-color: ${theme.colors.blue};
@@ -9,6 +13,11 @@ const StyledButton = styled.a`
   &:hover {
     background-color: ${theme.colors.blueLight};
   }
+  ${props => {
+    if (props.small) {
+      return css`${smallStyles}`
+    }
+  }}
 `
 const AnchorButton = (props) => {
   return (
