@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "data": "node convertData.js"
   },
   "keywords": [],
   "author": "Sia Karamalegos",
@@ -19,6 +20,7 @@
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.10.0"
+    "babel-plugin-styled-components": "^1.10.0",
+    "js-yaml": "^3.13.1"
   }
 }
