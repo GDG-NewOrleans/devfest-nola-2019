@@ -15,3 +15,32 @@ The master branch is automatically statically deployed to https://happy-lichterm
 ## Updating Source Data
 
 The source data is written in YAML because it's just easier. If you update one of the YAML data source files in the `data/` folder, run `npm run data` to update the JSON source files with the new data.
+
+## Headshot Images
+
+Convert headshot images to square and only 500px wide. Here are some ImageMagick `convert` commands for reference:
+
+Just resize:
+
+```
+$ convert galaxy.jpg -resize 500 galaxy_500.jpg
+```
+
+Resize and crop:
+
+```
+$ convert original.jpg -resize "500^>" -gravity center -crop 500x500+0+0 -strip cropped.jpg
+```
+
+Resize and crop, but can adjust offset of where to crop:
+
+```
+convert -crop 100x100+50+50 input_image.jpg output_image.jpg
+```
+
+Explanation:
+
+- `gravity center` center the next operation
+- `+profile "*"` do not save any metainfo to the jpeg (making the resulting image smaller). I think `strip` does this too?
+
+Info from https://superuser.com/questions/275476/square-thumbnails-with-imagemagick-convert

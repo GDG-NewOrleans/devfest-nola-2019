@@ -1,21 +1,26 @@
 [
   {
-    "id": "jay",
-    "name": "Jay Gatsby",
-    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/JayGatsby1.jpg",
-    "bio": "A mysterious millionaire",
-    "company": "Gatsby",
-    "twitter": "gatsbyjs",
-    "github": "gatsbyjs"
+    "id": "guzman",
+    "name": "Chris Guzman",
+    "image": "/static/guzman_500.jpg",
+    "bio": "Chris Guzman is an Android developer and recovering Rails developer. He co-organizes GDG New Orleans. A recent transplant from Baltimore, he loves board games and all types of comedy.",
+    "company": "Big Nerd Ranch",
+    "twitter": "speaktochris",
+    "github": "ChrisGuzman",
+    "website": "http://chris-guzman.com/",
+    "blog": "https://chrisguzman.svbtle.com/",
+    "linkedin": "https://www.linkedin.com/in/guzmantchris"
   },
   {
-    "id": "daisy",
-    "name": "Daisy Buchanan",
-    "_image": "https://upload.wikimedia.org/wikipedia/en/d/df/Daisy_Buchanan.png",
-    "image": "https://compote.slate.com/images/589ce9de-a6be-4167-b1ef-59be7f707ed6.jpg",
-    "bio": "Courteous driver",
-    "company": "Gatsby",
-    "twitter": "gatsbyjs",
-    "github": "gatsbyjs"
+    "id": "sia",
+    "name": "Sia Karamalegos",
+    "image": "/static/sia_500.jpg",
+    "bio": "Sia Karamalegos is a developer and international conference speaker. She is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes #FrontEndParty, GDG New Orleans, and NOLA Hack Night. She is the founder and lead developer for Clio + Calliope.",
+    "company": "Clio + Calliope",
+    "twitter": "TheGreenGreek",
+    "github": "siakaramalegos",
+    "website": "https://siakaramalegos.github.io/",
+    "blog": "https://medium.com/clio-calliope",
+    "linkedin": "https://www.linkedin.com/in/karamalegos"
   }
 ]
