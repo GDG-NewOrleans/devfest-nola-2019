@@ -1,9 +1,9 @@
 [
   {
-    "id": "gatsby",
-    "name": "Gatsby",
-    "url": "https://gatsbyjs.org",
-    "logo": "https://mutability.netlify.com/Gatsby-Logo.svg",
+    "id": "google",
+    "name": "Google",
+    "url": "https://developers.google.com/programs/community/",
+    "logo": "/static/googlelogo.png",
     "tier": "platinum"
   }
 ]
