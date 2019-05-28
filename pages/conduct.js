@@ -1,8 +1,11 @@
 import Layout from "../components/Layout";
+import PageTitle from "../components/elements/PageTitle";
+import Section from "../components/elements/Section";
 
 const conduct = () => (
   <Layout>
-    <h1>Event Code of Conduct &amp; Anti-Harrassment Policy</h1>
+    <Section>
+    <PageTitle>Event Code of Conduct &amp; Anti-Harrassment Policy</PageTitle>
 
     <p>GDG New Orleans and Women Techmakers New Orleans is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. GDG New Orleans and Women Techmakers New Orleans takes violations of our policy seriously and will respond appropriately.</p>
 
@@ -32,6 +35,7 @@ const conduct = () => (
     <p>This policy is licensed under the [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).</p>
 
     <p>This policy is based on and influenced by several other community policies including: Ohio LinuxFest Anti-Harassment policy, Con Anti-Harassment Project, Geek Feminism Wiki (created by the Ada Initiative), ConfCodeofConduct.com, JSconf, Rust, Diversity in Python, and Write/Speak/Code.</p>
+    </Section>
   </Layout>
 )
 

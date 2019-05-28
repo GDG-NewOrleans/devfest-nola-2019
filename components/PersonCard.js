@@ -1,7 +1,16 @@
+import styled from 'styled-components'
 import { GithubLink, TwitterLink, LinkedInLink, WebsiteLink, BlogLink } from "./SocialLink";
 
+const StyledCard = styled.div`
+  padding: 16px;
+  width: 300px;
+  img {
+    width: 250px;
+  }
+`
+
 const PersonCard = ({name, image, bio, company, twitter, github, linkedin, website, blog}) => (
-  <div>
+  <StyledCard>
     <img src={image} alt={name} />
     <h1>{name}</h1>
     <h2>{company}</h2>
@@ -13,7 +22,7 @@ const PersonCard = ({name, image, bio, company, twitter, github, linkedin, websi
       {website ? <WebsiteLink url={website} /> : null}
       {blog ? <BlogLink url={blog} /> : null}
     </p>
-  </div>
+  </StyledCard>
 )
 
 export default PersonCard
