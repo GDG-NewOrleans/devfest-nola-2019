@@ -6,19 +6,47 @@ const smallStyles = `
 `
 
 const StyledButton = styled.a`
-  background-color: ${theme.colors.blue};
-  color: white;
+  ${props => props.color == 'blue' && css`
+    background-color: ${theme.colors.blue};
+    color: white;
+    &:hover {
+      background-color: ${theme.colors.blueLight};
+    }
+  `}
+  ${props => props.color == 'red' && css`
+    background-color: ${theme.colors.red};
+    color: white;
+    &:hover {
+      background-color: ${theme.colors.redLight};
+    }
+  `}
+  ${props => props.color == 'white/green' && css`
+    background-color: white;
+    color: ${theme.colors.green};
+    &:hover {
+      background-color: ${theme.colors.lightGrey};
+    }
+  `}
+  ${props => props.color == 'white/blue' && css`
+    background-color: white;
+    color: ${theme.colors.blue};
+    &:hover {
+      background-color: ${theme.colors.lightGrey};
+    }
+  `}
   padding: 0.5em 1em;
   text-decoration: none;
-  &:hover {
-    background-color: ${theme.colors.blueLight};
-  }
   ${props => {
     if (props.small) {
       return css`${smallStyles}`
     }
   }}
 `
+
+StyledButton.defaultProps = {
+  color: 'blue',
+}
+
 const AnchorButton = (props) => {
   return (
     <StyledButton {...props}>

@@ -7,13 +7,13 @@ import BlogLogo from './icons/pen-nib.svg'
 import theme from './theme'
 
 const StyledLink = styled.a`
-  margin-right: 8px;
+  margin-right: 12px;
   svg {
-    width: 32px;
-    fill: ${theme.colors.red};
+    width: 24px;
+    fill: white;
   }
   svg:hover {
-    fill: ${theme.colors.redLight};
+    fill: ${theme.colors.lightGrey};
   }
 `
 
@@ -35,20 +35,20 @@ export const TwitterLink = ({ username }) => (
   </SocialLink>
 )
 
-export const LinkedInLink = ({ url }) => (
-  <SocialLink href={url}>
+export const LinkedInLink = ({ link }) => (
+  <SocialLink href={link}>
     <LinkedInLogo alt="LinkedIn" />
   </SocialLink>
 )
 
-export const WebsiteLink = ({ url }) => (
-  <SocialLink href={url}>
+export const WebsiteLink = ({ link }) => (
+  <SocialLink href={link}>
     <WebsiteLogo alt="personal website" />
   </SocialLink>
 )
 
-export const BlogLink = ({ url }) => (
-  <SocialLink href={url}>
+export const BlogLink = ({ link }) => (
+  <SocialLink href={link}>
     <BlogLogo alt="blog" />
   </SocialLink>
 )

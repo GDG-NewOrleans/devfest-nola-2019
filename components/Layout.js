@@ -26,7 +26,7 @@ const Layout = (props) => (
             font-size: 1.6em;
             font-family: 'Product Sans', sans-serif;}
           body h2 {
-            font-size: 1.3em;
+            font-size: 1.4em;
             font-family: 'Product Sans', sans-serif;}
         `}
       </style>
