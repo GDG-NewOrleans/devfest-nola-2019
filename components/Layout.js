@@ -13,7 +13,22 @@ const Layout = (props) => (
   <div>
     <Head>
       <title>DevFest New Orleans 2019</title>
+      <meta name="description" content="DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+      <meta property="og:image" content="http://devfest2019.gdgneworleans.com/static/share.jpg"/>
+      <meta property="og:image:type" content="image/jpeg"/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="630"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:site" content="@GDG_NewOrleans"/>
+      <meta name="twitter:title" content="DevFest New Orleans 2019"/>
+      <meta name="twitter:description" content="DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. Join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"/>
+      <meta name="twitter:creator" content="@GDG_NewOrleans"/>
+      <meta name="twitter:image" content="http://devfest2019.gdgneworleans.com/static/share.jpg"/>
+      <meta name="twitter:image:alt" content="New Orleans skyline" />
+      <meta name="twitter:domain" content="devfest2019.gdgneworleans.com"/>
+
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="true"></link>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Product+Sans:400&amp;lang=en&amp;display=swap" rel="stylesheet"></link>
       <style>
