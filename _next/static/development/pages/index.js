@@ -998,6 +998,53 @@ var SponsorList = function SponsorList(_ref) {
 
 /***/ }),
 
+/***/ "./components/elements/Anchor.js":
+/*!***************************************!*\
+  !*** ./components/elements/Anchor.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
+
+var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/elements/Anchor.js";
+
+
+
+var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a.withConfig({
+  displayName: "Anchor__StyledLink",
+  componentId: "sc-1vdaprr-0"
+})(["", " ", " ", ""], function (props) {
+  return props.color == 'blue' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(["color:", ";&:hover{color:", ";}"], _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.blueLight);
+}, function (props) {
+  return props.color == 'red' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(["color:", ";&:hover{color:", ";}"], _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.redLight);
+}, function (props) {
+  return props.color == 'white' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(["color:white;&:hover{color:", ";}"], _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.lightGrey);
+});
+StyledLink.defaultProps = {
+  color: 'blue'
+};
+
+var Anchor = function Anchor(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }), props.children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Anchor);
+
+/***/ }),
+
 /***/ "./components/elements/AnchorButton.js":
 /*!*********************************************!*\
   !*** ./components/elements/AnchorButton.js ***!
@@ -15982,7 +16029,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SponsorList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/SponsorList */ "./components/SponsorList.js");
 /* harmony import */ var _components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_elements_Anchor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/elements/Anchor */ "./components/elements/Anchor.js");
 var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/index.js";
+
 
 
 
@@ -16010,21 +16059,21 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -16036,33 +16085,49 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }), " DevFest New Orleans 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, "October 5, 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "We are pleased to offer a limited number of scholarships to potential attendees who would experience financial hardship. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    href: "https://forms.gle/GNihqAGiK8aWgMZb7",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -16072,40 +16137,40 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, "Speakers & Talks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, "We are looking for speakers to deliver innovative talks in web, mobile, UI/UX, cloud, emerging technologies and more. Got a talk idea? We want to hear from you!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, "The CFP closes on June 30, 2019."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -16115,40 +16180,40 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     },
     __self: this
   }, "Submit your talk"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_6__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -16157,34 +16222,34 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 62
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 63
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 66
     },
     __self: this
   }));
