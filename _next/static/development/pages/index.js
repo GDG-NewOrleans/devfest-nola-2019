@@ -1,5 +1,91 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _elements_Section__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./elements/Section */ "./components/elements/Section.js");
+/* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
+/* harmony import */ var _elements_Lead__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./elements/Lead */ "./components/elements/Lead.js");
+/* harmony import */ var _icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
+var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js";
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    skyline: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Lead__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "DevFest New Orleans 2019 is organized by"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    style: {
+      fontSize: '2.5em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    alt: "GDG",
+    width: "110px",
+    style: {
+      position: 'relative',
+      top: '11px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), " GDG New Orleans"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "cta",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "#",
+    style: {
+      marginRight: '20px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Register now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "red",
+    href: "https://www.meetup.com/gdg-new-orleans/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Join us on Meetup")));
+});
+
+/***/ }),
+
 /***/ "./components/Layout.js":
 /*!******************************!*\
   !*** ./components/Layout.js ***!
@@ -75,7 +161,7 @@ var Layout = function Layout(props) {
       lineNumber: 19
     },
     __self: this
-  }, "\n          body{\n            color:#555555;\n            font-family: 'Open Sans', sans-serif;\n            margin: 0;}\n          body h1 {\n            font-size: 1.6em;\n            font-family: 'Product Sans', sans-serif;}\n          body h2 {\n            font-size: 1.4em;\n            font-family: 'Product Sans', sans-serif;}\n        ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
+  }, "\n          body{\n            color:#555555;\n            font-family: 'Open Sans', \"Helvetica\", \"Arial\", sans-serif;\n            margin: 0;}\n          body h1 {\n            font-size: 1.6em;\n            font-family: 'Product Sans', \"Helvetica\", \"Arial\", sans-serif;}\n          body h2 {\n            font-size: 1.4em;\n            font-family: 'Product Sans', \"Helvetica\", \"Arial\", sans-serif;}\n        ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -524,7 +610,7 @@ var StyledCard = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.w
 var StyledImg = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
   displayName: "PersonCard__StyledImg",
   componentId: "vrc94i-1"
-})(["border-radius:50%;border:4px solid white;width:250px;"]);
+})(["border-radius:50%;border:8px solid white;width:150px;"]);
 
 var PersonCard = function PersonCard(_ref) {
   var name = _ref.name,
@@ -536,6 +622,7 @@ var PersonCard = function PersonCard(_ref) {
       linkedin = _ref.linkedin,
       website = _ref.website,
       blog = _ref.blog;
+  // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
   var ghPages = true;
   var assetPrefix = ghPages ? '/devfest-nola-2019' : '';
   var img = "".concat(assetPrefix).concat(image);
@@ -543,7 +630,7 @@ var PersonCard = function PersonCard(_ref) {
     className: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledImg, {
@@ -551,66 +638,66 @@ var PersonCard = function PersonCard(_ref) {
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, company), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, bio), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, github ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["GithubLink"], {
     username: github,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }) : null, twitter ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["TwitterLink"], {
     username: twitter,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }) : null, linkedin ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["LinkedInLink"], {
     link: linkedin,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }) : null, website ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["WebsiteLink"], {
     link: website,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }) : null, blog ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["BlogLink"], {
     link: blog,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }) : null));
@@ -832,21 +919,25 @@ var Sponsor = function Sponsor(_ref) {
   var name = _ref.name,
       link = _ref.link,
       logo = _ref.logo;
+  // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
+  var ghPages = true;
+  var assetPrefix = ghPages ? '/devfest-nola-2019' : '';
+  var img = "".concat(assetPrefix).concat(logo);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: link,
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: logo,
+    src: img,
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 9
     },
     __self: this
   }));
@@ -953,6 +1044,24 @@ var AnchorButton = function AnchorButton(props) {
 
 /***/ }),
 
+/***/ "./components/elements/Lead.js":
+/*!*************************************!*\
+  !*** ./components/elements/Lead.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.withConfig({
+  displayName: "Lead",
+  componentId: "sc-1uvl2r1-0"
+})(["font-size:1.2em;font-weight:700;"]));
+
+/***/ }),
+
 /***/ "./components/elements/Section.js":
 /*!****************************************!*\
   !*** ./components/elements/Section.js ***!
@@ -985,7 +1094,7 @@ var SectionContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var InnerSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Section__InnerSection",
   componentId: "sc-1gqzih2-1"
-})(["max-width:920px;padding:4em 1em;width:100%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
+})(["max-width:920px;margin:4em 0;width:96%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
 
 var Section = function Section(_ref) {
   var skyline = _ref.skyline,
@@ -15864,7 +15973,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
 /* harmony import */ var _components_SponsorList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/SponsorList */ "./components/SponsorList.js");
 /* harmony import */ var _components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/index.js";
+
 
 
 
@@ -15886,30 +15997,26 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withCon
 var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "pages__OffsetHeading",
   componentId: "sc-1qq5ej1-1"
-})(["margin-top:-70px;padding-top:70px;"]);
-var Lead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
-  displayName: "pages__Lead",
-  componentId: "sc-1qq5ej1-2"
-})(["font-size:1.2em;font-weight:700;"]);
+})(["margin-top:-90px;padding-top:90px;"]);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -15921,33 +16028,33 @@ var Lead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfi
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 30
     },
     __self: this
   }), " DevFest New Orleans 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 34
     },
     __self: this
   }, "October 5, 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 35
     },
     __self: this
   }, "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -15955,40 +16062,40 @@ var Lead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfi
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 37
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 42
     },
     __self: this
   }, "Speakers & Talks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 43
     },
     __self: this
   }, "We are looking for speakers to deliver innovative talks in web, mobile, UI/UX, cloud, emerging technologies and more. Got a talk idea? We want to hear from you!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 44
     },
     __self: this
   }, "The CFP closes on June 30, 2019."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -15996,130 +16103,77 @@ var Lead = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfi
     href: "https://www.papercall.io/devfest-neworleans",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 46
     },
     __self: this
   }, "Submit your talk"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 51
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_6__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 52
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 53
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     href: "mailto:gdgneworleans@gmail.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 55
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OffsetHeading, {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 60
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 61
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    skyline: true,
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 64
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Lead, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, "DevFest New Orleans 2019 is organized by"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    style: {
-      fontSize: '2.5em'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    alt: "GDG",
-    width: "110px",
-    style: {
-      position: 'relative',
-      top: '11px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }), " GDG New Orleans"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "cta",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    href: "#",
-    style: {
-      marginRight: '20px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Register now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    color: "red",
-    href: "https://www.meetup.com/gdg-new-orleans/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "Join us on Meetup"))));
+  }));
 });
 
 /***/ }),
