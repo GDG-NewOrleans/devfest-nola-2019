@@ -182,13 +182,77 @@ var Layout = function Layout(props) {
       lineNumber: 22
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:card",
+    content: "summary_large_image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:site",
+    content: "@GDG_NewOrleans",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:title",
+    content: "DevFest New Orleans 2019",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:description",
+    content: "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. Join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:creator",
+    content: "@GDG_NewOrleans",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:image",
+    content: "http://devfest2019.gdgneworleans.com/static/share.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:image:alt",
+    content: "New Orleans skyline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "twitter:domain",
+    content: "devfest2019.gdgneworleans.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "preconnect",
     href: "https://fonts.gstatic.com/",
     crossOrigin: "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 32
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -196,13 +260,13 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 34
     },
     __self: this
   }, "\n          body{\n            color:#555555;\n            font-family: 'Open Sans', \"Helvetica\", \"Arial\", sans-serif;\n            margin: 0;}\n          body h1 {\n            font-size: 1.6em;\n            font-family: 'Product Sans', \"Helvetica\", \"Arial\", sans-serif;}\n          body h2 {\n            font-size: 1.4em;\n            font-family: 'Product Sans', \"Helvetica\", \"Arial\", sans-serif;}\n        "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -211,7 +275,7 @@ var Layout = function Layout(props) {
     href: "/static/apple-touch-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -221,7 +285,7 @@ var Layout = function Layout(props) {
     href: "/static/favicon-32x32.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 49
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -231,7 +295,7 @@ var Layout = function Layout(props) {
     href: "/static/favicon-16x16.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 50
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -239,7 +303,7 @@ var Layout = function Layout(props) {
     href: "/static/site.webmanifest",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 51
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -248,7 +312,7 @@ var Layout = function Layout(props) {
     color: "#5bbad5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 52
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -256,7 +320,7 @@ var Layout = function Layout(props) {
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -264,7 +328,7 @@ var Layout = function Layout(props) {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -272,7 +336,7 @@ var Layout = function Layout(props) {
     content: "/static/browserconfig.xml",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 55
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -280,19 +344,19 @@ var Layout = function Layout(props) {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 56
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 58
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 59
     },
     __self: this
   }, props.children));
