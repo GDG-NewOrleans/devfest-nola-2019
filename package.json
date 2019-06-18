@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",
-    "staging": "NODE_ENV=staging npm run export && touch out/.nojekyll && gh-pages -d out --dotfiles",
+    "deploy": "npm run export && touch out/.nojekyll && cp CNAME out/CNAME && gh-pages -d out --dotfiles",
     "data": "node convertData.js"
   },
   "keywords": [],

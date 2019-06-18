@@ -10,7 +10,7 @@ Run `npm run dev` to start the development server and go to http://localhost:300
 
 To deploy as a static website, run `npm export` which both performs the build and the export. Now you can deploy the `out` directory to any static hosting service.
 
-The master branch is automatically statically deployed to https://happy-lichterman-b0a93a.netlify.com/.
+We use Github pages for hosting. To push changes to production, run `npm run deploy`.
 
 ## Updating Source Data
 
