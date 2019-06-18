@@ -1,4 +1,5 @@
 const withCSS = require('@zeit/next-css')
+const assetPrefix = process.env.NODE_ENV === 'staging' ? '/devfest-nola-2019' : ''
 
 module.exports = withCSS({
   webpack(config) {
@@ -8,5 +9,6 @@ module.exports = withCSS({
     });
 
     return config;
-  }
+  },
+  assetPrefix: assetPrefix
 });

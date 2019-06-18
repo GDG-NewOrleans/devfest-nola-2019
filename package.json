@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",
+    "deploy": "npm run export && touch out/.nojekyll && cp CNAME out/CNAME && gh-pages -d out --dotfiles",
     "data": "node convertData.js"
   },
   "keywords": [],
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@svgr/webpack": "^4.2.0",
     "babel-plugin-styled-components": "^1.10.0",
+    "gh-pages": "^2.0.1",
     "js-yaml": "^3.13.1"
   }
 }

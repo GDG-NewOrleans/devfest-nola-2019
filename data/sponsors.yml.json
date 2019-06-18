@@ -2,7 +2,7 @@
   {
     "id": "google",
     "name": "Google",
-    "url": "https://developers.google.com/programs/community/",
+    "link": "https://developers.google.com/programs/community/",
     "logo": "/static/googlelogo.png",
     "tier": "platinum"
   }

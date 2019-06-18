@@ -15,12 +15,22 @@
     "id": "sia",
     "name": "Sia Karamalegos",
     "image": "/static/sia_500.jpg",
-    "bio": "Sia Karamalegos is a developer and international conference speaker. She is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes #FrontEndParty, GDG New Orleans, and NOLA Hack Night. She is the founder and lead developer for Clio + Calliope.",
+    "bio": "Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans.",
     "company": "Clio + Calliope",
     "twitter": "TheGreenGreek",
     "github": "siakaramalegos",
     "website": "https://siakaramalegos.github.io/",
     "blog": "https://medium.com/clio-calliope",
     "linkedin": "https://www.linkedin.com/in/karamalegos"
+  },
+  {
+    "id": "liv",
+    "name": "Olivia Sabo-Rush",
+    "image": "/static/liv_500.jpg",
+    "bio": "Liv is a New Orleans based software engineer. She co-organizes GDG New Orleans and #FrontEndParty, and has a passion for UI/UX.",
+    "company": "iSeatz",
+    "github": "livrush",
+    "website": "http://pafiu.me",
+    "linkedin": "https://www.linkedin.com/in/livrush"
   }
 ]
