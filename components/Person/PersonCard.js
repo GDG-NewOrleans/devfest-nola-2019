@@ -3,6 +3,7 @@ import { GithubLink, TwitterLink, LinkedInLink, WebsiteLink, BlogLink } from "..
 
 const StyledCard = styled.div`
   padding: 16px;
+  text-align: center;
   width: 272px;
 
   &.card h1 {
@@ -15,6 +16,7 @@ const StyledCard = styled.div`
 const StyledImg = styled.img`
   border-radius: 50%;
   border: 8px solid white;
+  height: 150px;
   width: 150px;
 `
 

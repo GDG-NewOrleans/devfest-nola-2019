@@ -90,7 +90,7 @@ class MobileMenu extends Component {
             onClick={this.state.isOpen ? this.closeMenu : this.openMenu} >
             Menu
           </MenuLink>
-          <AnchorButton style={{alignSelf: 'center', marginRight: '1em'}} href="#" small="true">Register now</AnchorButton>
+          <AnchorButton style={{ alignSelf: 'center', marginRight: '1em' }} href="https://ti.to/gdg-new-orleans/devfest-new-orleans-2019" small="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
         </MobileTopNav>
         <MobileLinks className={this.state.isOpen ? 'is-visible' : 'is-hidden'}>
           <Link passHref href="/"><MobileNavLink onClick={this.closeMenu} >Home</MobileNavLink></Link>

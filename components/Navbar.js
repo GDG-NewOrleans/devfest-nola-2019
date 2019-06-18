@@ -59,7 +59,7 @@ export const Navbar = () => {
           <Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link>
           <Link passHref href="/venue"><StyledLink>Venue</StyledLink></Link>
           <Link passHref href="/conduct"><StyledLink>Code of Conduct</StyledLink></Link>
-          <AnchorButton href="#" medium="true">Register now</AnchorButton>
+          <AnchorButton href="https://ti.to/gdg-new-orleans/devfest-new-orleans-2019" medium="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
         </NavLinks>
       </NavDesktopContainer>
       <MobileMenu />
