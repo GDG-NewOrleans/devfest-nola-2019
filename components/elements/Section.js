@@ -26,8 +26,8 @@ const SectionContainer = styled.section`
 
 const InnerSection =  styled.div`
   max-width: 920px;
-  padding: 4em 1em;
-  width: 100%;
+  margin: 4em 0;
+  width: 96%;
   h1 {
     font-size: 2em;
     margin-bottom: 30px;

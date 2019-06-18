@@ -16,6 +16,10 @@ The master branch is automatically statically deployed to https://happy-lichterm
 
 The source data is written in YAML because it's just easier. If you update one of the YAML data source files in the `data/` folder, run `npm run data` to update the JSON source files with the new data.
 
+## Hack for /static/ assets
+
+Unfortunately, setting the `assetPrefix` in Next.js does not set it for the assets in the /static/ folder. The Sponsor.js and PersonCard.js files contain hacks for this to work in the meantime. When deploying to Github pages, set the value to `true`.
+
 ## Headshot Images
 
 Convert headshot images to square and only 500px wide. Here are some ImageMagick `convert` commands for reference:

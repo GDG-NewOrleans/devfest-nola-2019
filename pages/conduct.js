@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import PageTitle from "../components/elements/PageTitle";
 import Section from "../components/elements/Section";
+import Footer from "../components/Footer"
 
 const conduct = () => (
   <Layout>
@@ -36,6 +37,8 @@ const conduct = () => (
 
     <p>This policy is based on and influenced by several other community policies including: Ohio LinuxFest Anti-Harassment policy, Con Anti-Harassment Project, Geek Feminism Wiki (created by the Ada Initiative), ConfCodeofConduct.com, JSconf, Rust, Diversity in Python, and Write/Speak/Code.</p>
     </Section>
+
+    <Footer />
   </Layout>
 )
 

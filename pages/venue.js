@@ -2,6 +2,7 @@ import VenueMap from "../components/VenueMap";
 import Layout from "../components/Layout";
 import PageTitle from "../components/elements/PageTitle";
 import Section from "../components/elements/Section";
+import Footer from "../components/Footer"
 
 export default () => (
   <Layout>
@@ -13,5 +14,7 @@ export default () => (
       <p>If you drive, you can find street parking on St. Charles Avenue and some of the neighborhood streets. Please note that many of the neighborhood streets restrict parking to less than 2 hours. Please obey all parking regulations.</p>
       <VenueMap />
     </Section>
+
+    <Footer />
   </Layout>
 )

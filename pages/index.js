@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 import Layout from "../components/Layout";
-import PersonList from "../components/PersonList";
+import PersonList from "../components/Person/PersonList";
 import AnchorButton from "../components/elements/AnchorButton";
 import Section from "../components/elements/Section";
 import SponsorList from "../components/SponsorList";
 import GDGLogo from '../components/icons/gdg_logo.svg'
+import Footer from '../components/Footer';
 const organizers = require('../data/organizers.yml.json')
 const sponsors = require('../data/sponsors.yml.json')
 
@@ -19,13 +20,8 @@ const Title = styled.h1`
 
 // Offset scroll position due to navbar positioning
 const OffsetHeading = styled.h1`
-  margin-top: -70px;
-  padding-top: 70px;
-`
-
-const Lead = styled.p`
-  font-size: 1.2em;
-  font-weight: 700;
+  margin-top: -90px;
+  padding-top: 90px;
 `
 
 export default () => (
@@ -65,13 +61,6 @@ export default () => (
       <PersonList people={organizers} />
     </Section >
 
-    <Section skyline>
-      <Lead>DevFest New Orleans 2019 is organized by</Lead>
-      <h1 style={{fontSize: '2.5em'}}><GDGLogo alt="GDG" width="110px" style={{ position: 'relative', top: '11px' }} /> GDG New Orleans</h1>
-      <p className="cta">
-        <AnchorButton href="#" style={{marginRight: '20px'}}>Register now</AnchorButton>
-        <AnchorButton color="red" href="https://www.meetup.com/gdg-new-orleans/">Join us on Meetup</AnchorButton>
-      </p>
-    </Section>
+    <Footer />
   </Layout>
 )

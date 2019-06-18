@@ -20,14 +20,14 @@ const Layout = (props) => (
         {`
           body{
             color:#555555;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Open Sans', "Helvetica", "Arial", sans-serif;
             margin: 0;}
           body h1 {
             font-size: 1.6em;
-            font-family: 'Product Sans', sans-serif;}
+            font-family: 'Product Sans', "Helvetica", "Arial", sans-serif;}
           body h2 {
             font-size: 1.4em;
-            font-family: 'Product Sans', sans-serif;}
+            font-family: 'Product Sans', "Helvetica", "Arial", sans-serif;}
         `}
       </style>
     </Head>
