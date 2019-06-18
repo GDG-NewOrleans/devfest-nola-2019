@@ -64,7 +64,9 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#",
+    href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
+    target: "_blank",
+    rel: "noopener noreferrer",
     style: {
       marginRight: '20px'
     },
@@ -76,6 +78,8 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
   }, "Register now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
     color: "red",
     href: "https://www.meetup.com/gdg-new-orleans/",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -300,8 +304,10 @@ function (_Component) {
           alignSelf: 'center',
           marginRight: '1em'
         },
-        href: "#",
+        href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
         small: "true",
+        target: "_blank",
+        rel: "noopener noreferrer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 93
@@ -568,8 +574,10 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    href: "#",
+    href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
     medium: "true",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -606,11 +614,11 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Person/Per
 var StyledCard = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "PersonCard__StyledCard",
   componentId: "vrc94i-0"
-})(["padding:16px;width:272px;&.card h1{font-size:1.6em;margin-bottom:0;}&.card h2{font-size:1.4em;}"]);
+})(["padding:16px;text-align:center;width:272px;&.card h1{font-size:1.6em;margin-bottom:0;}&.card h2{font-size:1.4em;}"]);
 var StyledImg = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
   displayName: "PersonCard__StyledImg",
   componentId: "vrc94i-1"
-})(["border-radius:50%;border:8px solid white;width:150px;"]);
+})(["border-radius:50%;border:8px solid white;height:150px;width:150px;"]);
 
 var PersonCard = function PersonCard(_ref) {
   var name = _ref.name,
@@ -623,14 +631,14 @@ var PersonCard = function PersonCard(_ref) {
       website = _ref.website,
       blog = _ref.blog;
   // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
-  var ghPages = true;
+  var ghPages = false;
   var assetPrefix = ghPages ? '/devfest-nola-2019' : '';
   var img = "".concat(assetPrefix).concat(image);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledCard, {
     className: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledImg, {
@@ -638,66 +646,66 @@ var PersonCard = function PersonCard(_ref) {
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: this
   }, company), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: this
   }, bio), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }, github ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["GithubLink"], {
     username: github,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }) : null, twitter ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["TwitterLink"], {
     username: twitter,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }) : null, linkedin ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["LinkedInLink"], {
     link: linkedin,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }) : null, website ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["WebsiteLink"], {
     link: website,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }) : null, blog ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_2__["BlogLink"], {
     link: blog,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }) : null));
@@ -729,7 +737,7 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Person/Per
 var StyledCardDeck = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "PersonList__StyledCardDeck",
   componentId: "sc-9aegl2-0"
-})(["display:flex;flex-wrap:wrap;"]);
+})(["display:flex;flex-wrap:wrap;justify-content:center;"]);
 
 var PersonList = function PersonList(_ref) {
   var people = _ref.people;
@@ -738,7 +746,7 @@ var PersonList = function PersonList(_ref) {
       key: person.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
     }));
@@ -746,7 +754,7 @@ var PersonList = function PersonList(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledCardDeck, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, cards);
@@ -920,7 +928,7 @@ var Sponsor = function Sponsor(_ref) {
       link = _ref.link,
       logo = _ref.logo;
   // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
-  var ghPages = true;
+  var ghPages = false;
   var assetPrefix = ghPages ? '/devfest-nola-2019' : '';
   var img = "".concat(assetPrefix).concat(logo);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1094,7 +1102,7 @@ var SectionContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var InnerSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Section__InnerSection",
   componentId: "sc-1gqzih2-1"
-})(["max-width:920px;margin:4em 0;width:96%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
+})(["max-width:920px;margin:4em 0;width:92%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
 
 var Section = function Section(_ref) {
   var skyline = _ref.skyline,
@@ -1778,7 +1786,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"guzman","name":"Chris Guzman","image":"/static/guzman_500.jpg","bio":"Chris Guzman is an Android developer and recovering Rails developer. He co-organizes GDG New Orleans. A recent transplant from Baltimore, he loves board games and all types of comedy.","company":"Big Nerd Ranch","twitter":"speaktochris","github":"ChrisGuzman","website":"http://chris-guzman.com/","blog":"https://chrisguzman.svbtle.com/","linkedin":"https://www.linkedin.com/in/guzmantchris"},{"id":"sia","name":"Sia Karamalegos","image":"/static/sia_500.jpg","bio":"Sia Karamalegos is a developer and international conference speaker. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans. She is the founder and lead developer for Clio + Calliope.","company":"Clio + Calliope","twitter":"TheGreenGreek","github":"siakaramalegos","website":"https://siakaramalegos.github.io/","blog":"https://medium.com/clio-calliope","linkedin":"https://www.linkedin.com/in/karamalegos"},{"id":"liv","name":"Olivia Sabo-Rush","image":"/static/liv_500.jpg","bio":"Liv is a New Orleans based software engineer. She co-organizes GDG New Orleans and #FrontEndParty, and has a passion for UI/UX.","company":"iSeatz","github":"livrush","website":"http://pafiu.me","linkedin":"https://www.linkedin.com/in/livrush"}];
+module.exports = [{"id":"guzman","name":"Chris Guzman","image":"/static/guzman_500.jpg","bio":"Chris Guzman is an Android developer and recovering Rails developer. He co-organizes GDG New Orleans. A recent transplant from Baltimore, he loves board games and all types of comedy.","company":"Big Nerd Ranch","twitter":"speaktochris","github":"ChrisGuzman","website":"http://chris-guzman.com/","blog":"https://chrisguzman.svbtle.com/","linkedin":"https://www.linkedin.com/in/guzmantchris"},{"id":"sia","name":"Sia Karamalegos","image":"/static/sia_500.jpg","bio":"Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans.","company":"Clio + Calliope","twitter":"TheGreenGreek","github":"siakaramalegos","website":"https://siakaramalegos.github.io/","blog":"https://medium.com/clio-calliope","linkedin":"https://www.linkedin.com/in/karamalegos"},{"id":"liv","name":"Olivia Sabo-Rush","image":"/static/liv_500.jpg","bio":"Liv is a New Orleans based software engineer. She co-organizes GDG New Orleans and #FrontEndParty, and has a passion for UI/UX.","company":"iSeatz","github":"livrush","website":"http://pafiu.me","linkedin":"https://www.linkedin.com/in/livrush"}];
 
 /***/ }),
 
@@ -16059,7 +16067,9 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     color: "white/green",
-    href: "#",
+    href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -16101,6 +16111,8 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     color: "white/blue",
     href: "https://www.papercall.io/devfest-neworleans",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -16141,6 +16153,8 @@ var OffsetHeading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
     href: "mailto:gdgneworleans@gmail.com",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55

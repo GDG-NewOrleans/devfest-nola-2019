@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/conduct.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/venue.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -64,7 +64,9 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#",
+    href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
+    target: "_blank",
+    rel: "noopener noreferrer",
     style: {
       marginRight: '20px'
     },
@@ -76,6 +78,8 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
   }, "Register now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
     color: "red",
     href: "https://www.meetup.com/gdg-new-orleans/",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -300,8 +304,10 @@ function (_Component) {
           alignSelf: 'center',
           marginRight: '1em'
         },
-        href: "#",
+        href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
         small: "true",
+        target: "_blank",
+        rel: "noopener noreferrer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 93
@@ -568,8 +574,10 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    href: "#",
+    href: "https://ti.to/gdg-new-orleans/devfest-new-orleans-2019",
     medium: "true",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -583,6 +591,50 @@ var Navbar = function Navbar() {
     __self: this
   }));
 };
+
+/***/ }),
+
+/***/ "./components/VenueMap.js":
+/*!********************************!*\
+  !*** ./components/VenueMap.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/VenueMap.js";
+
+
+var MapContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "VenueMap__MapContainer",
+  componentId: "j7vych-0"
+})(["height:400px;margin:30px 0;max-width:600px;overflow:hidden;position:relative;width:100%;iframe{height:100%;left:0;position:absolute;top:0;width:100%;}"]);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MapContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.5411548837283!2d-90.12240628555955!3d29.9351092306856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a504eae2683b%3A0xf8f0f859fbe19271!2sMiller+Hall%2C+New+Orleans%2C+LA+70118!5e0!3m2!1sen!2sus!4v1558576309566!5m2!1sen!2sus",
+    frameBorder: "0",
+    style: {
+      border: 0
+    },
+    allowFullScreen: true,
+    title: "Google Maps Miller Hall Loyola University",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }));
+});
 
 /***/ }),
 
@@ -708,7 +760,7 @@ var SectionContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var InnerSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Section__InnerSection",
   componentId: "sc-1gqzih2-1"
-})(["max-width:920px;margin:4em 0;width:96%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
+})(["max-width:920px;margin:4em 0;width:92%;h1{font-size:2em;margin-bottom:30px;}p.cta{margin-top:40px;}"]);
 
 var Section = function Section(_ref) {
   var skyline = _ref.skyline,
@@ -7969,21 +8021,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconduct&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fconduct.js!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconduct&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fconduct.js ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fvenue&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fvenue.js!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fvenue&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fvenue.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/conduct", function() {
-      var page = __webpack_require__(/*! ./pages/conduct.js */ "./pages/conduct.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/venue", function() {
+      var page = __webpack_require__(/*! ./pages/venue.js */ "./pages/venue.js")
       if(true) {
-        module.hot.accept(/*! ./pages/conduct.js */ "./pages/conduct.js", function() {
-          if(!next.router.components["/conduct"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/conduct.js */ "./pages/conduct.js")
-          next.router.update("/conduct", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/venue.js */ "./pages/venue.js", function() {
+          if(!next.router.components["/venue"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/venue.js */ "./pages/venue.js")
+          next.router.update("/venue", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -15392,10 +15444,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/conduct.js":
-/*!**************************!*\
-  !*** ./pages/conduct.js ***!
-  \**************************/
+/***/ "./pages/venue.js":
+/*!************************!*\
+  !*** ./pages/venue.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15403,153 +15455,86 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/elements/PageTitle */ "./components/elements/PageTitle.js");
-/* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/conduct.js";
+/* harmony import */ var _components_VenueMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/VenueMap */ "./components/VenueMap.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/elements/PageTitle */ "./components/elements/PageTitle.js");
+/* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/venue.js";
 
 
 
 
 
 
-var conduct = function conduct() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Event Code of Conduct & Anti-Harrassment Policy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Venue"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "GDG New Orleans and Women Techmakers New Orleans is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. GDG New Orleans and Women Techmakers New Orleans takes violations of our policy seriously and will respond appropriately."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Miller Hall is at Loyola University at the corner of Calhoun and Loyola. We will be in room 114 - go past the main entrance to a separate entrance with a smaller foyer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Travel & Parking"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "All participants of GDG New Orleans and Women Techmakers New Orleans events must abide by the following policy:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+  }, "Your best option for travel is by the St Charles streetcar route. The venue is only two blocks off of St. Charles Avenue."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "If you drive, you can find street parking on St. Charles Avenue and some of the neighborhood streets. Please note that many of the neighborhood streets restrict parking to less than 2 hours. Please obey all parking regulations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VenueMap__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Be excellent to each other. We want the event to be an excellent experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. Treat everyone with respect. Participate while acknowledging that everyone deserves to be here -- and each of us has the right to enjoy our experience without fear of harassment, discrimination, or condescension, whether blatant or via micro-aggressions. Jokes shouldn\u2019t demean others. Consider what you are saying and how it would feel if it were said to or about you."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Speak up if you see or hear something. Harassment is not tolerated, and you are empowered to politely engage when you or others are disrespected. The person making you feel uncomfortable may not be aware of what they are doing, and politely bringing their behavior to their attention is encouraged. If a participant engages in harassing or uncomfortable behavior, the event organizers may take any action they deem appropriate, including warning or expelling the offender from the event with no refund. If you are being harassed or feel uncomfortable, notice that someone else is being harassed, or have any other concerns, please contact a member of the event staff immediately."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Harassment is not tolerated. Harassment includes, but is not limited to: verbal language that reinforces social structures of domination related to gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category; sexual imagery in public spaces; deliberate intimidation; stalking; following; harassing photography or recording; sustained disruption of talks or other events; offensive verbal language; inappropriate physical contact; and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Practice saying \"Yes and\" to each other. It's a theatre improv technique to build on each other\u2019s ideas. We all benefit when we create together.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "This policy extends to talks, forums, workshops, codelabs, social media, parties, hallway conversations, all attendees, partners, sponsors, volunteers, event staff, etc. You catch our drift. GDG New Orleans and Women Techmakers New Orleans reserves the right to refuse admittance to, or remove any person from, any GDG New Orleans or Women Techmakers New Orleans hosted event (including future GDG New Orleans and Women Techmakers New Orleans events) at any time in its sole discretion. This includes, but is not limited to, attendees behaving in a disorderly manner or failing to comply with this policy, and the terms and conditions herein. If a participant engages in harassing or uncomfortable behavior, the event organizers may take any action they deem appropriate, including warning or expelling the offender from the event with no refund."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Our event staff can usually be identified by special badges/attire. Our zero tolerance policy means that we will look into and review every allegation of violation of our Event Community Guidelines and Anti-Harassment Policy and respond appropriately. Please note, while we take all concerns raised seriously, we will use our discretion as to determining when and how to follow up on reported incidents, and may decline to take any further action and/or may direct the participant to other resources for resolution."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Event staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing discomfort or harassment to feel safe for the duration of the event. We value your attendance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "Exhibiting partners, sponsors or vendor booths, or similar activities are also subject to this policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment. Participants and exhibiting partners or sponsors disobeying this policy will be notified and are expected to stop any offending behavior immediately."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "Why this policy is important"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Harassment at events and in online communities is unfortunately common. Creating an official policy aims to improve this by making it clear that harassment of anyone for any reason is not acceptable within our events and communities. This policy may prevent harassment by clearly defining expectations for behavior, aims to provide reassurance, and encourages people who have had bad experiences at other events to participate in this one."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "License and attribution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, "This policy is licensed under the [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "This policy is based on and influenced by several other community policies including: Ohio LinuxFest Anti-Harassment policy, Con Anti-Harassment Project, Geek Feminism Wiki (created by the Ada Initiative), ConfCodeofConduct.com, JSconf, Rust, Diversity in Python, and Write/Speak/Code.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
   }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (conduct);
+});
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fconduct&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fconduct.js ***!
-  \*******************************************************************************************************************************************/
+/***/ 1:
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fvenue&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fvenue.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fconduct&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fconduct.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconduct&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fconduct.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fvenue&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fvenue.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fvenue&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Fvenue.js!./");
 
 
 /***/ }),
@@ -15565,5 +15550,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=conduct.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=venue.js.map
