@@ -20,6 +20,10 @@ The source data is written in YAML because it's just easier. If you update one o
 
 Unfortunately, setting the `assetPrefix` in Next.js does not set it for the assets in the /static/ folder. The Sponsor.js and PersonCard.js files contain hacks for this to work in the meantime. When deploying to Github pages, set the value to `true`.
 
+## CFP mode vs later
+
+When you're in CFP mode, use the SpeakerTalksCFP component before the Sponsors section. Afterwards, use the Speakers and Schedule components.
+
 ## Headshot Images
 
 Convert headshot images to square and only 500px wide. Here are some ImageMagick `convert` commands for reference:
