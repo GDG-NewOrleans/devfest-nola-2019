@@ -9,8 +9,9 @@ import GDGLogo from '../components/icons/gdg_logo.svg'
 import Footer from '../components/Footer';
 import Anchor from '../components/elements/Anchor';
 import SpeakersTalksCFP from '../components/SpeakersTalksCFP';
-const organizers = require('../data/organizers.yml.json')
+const speakers = require('../data/speakers.yml.json')
 const sponsors = require('../data/sponsors.yml.json')
+const organizers = require('../data/organizers.yml.json')
 
 const Title = styled.h1`
   font-family: 'Product Sans', sans-serif;
@@ -36,7 +37,14 @@ export default () => (
       </p>
     </Section>
 
-    <SpeakersTalksCFP />
+    <Section>
+      <OffsetHeading id="organizers">Speakers</OffsetHeading>
+      <PersonList people={speakers} rainbow />
+    </Section >
+
+    <Section color="blue">
+      <OffsetHeading id="organizers">Schedule</OffsetHeading>
+    </Section >
 
     <Section>
       <OffsetHeading id="sponsors">Sponsors</OffsetHeading>
