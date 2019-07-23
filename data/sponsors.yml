@@ -3,3 +3,8 @@
   link: https://developers.google.com/programs/community/
   logo: /static/googlelogo.png
   tier: platinum
+- id: mark
+  name: mark
+  link: ""
+  logo: /static/marklogo.png
+  tier: silver
