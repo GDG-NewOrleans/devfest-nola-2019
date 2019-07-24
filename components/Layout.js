@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Head from 'next/head'
 import { Navbar } from './Navbar';
+import { GA_TRACKING_ID } from '../lib/gtag'
 
 const Main = styled.main`
   display: flex;
@@ -54,6 +55,18 @@ const Layout = (props) => (
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-config" content="/static/browserconfig.xml" />
       <meta name="theme-col</meta>or" content="#ffffff" />
+      {/* {Global site tag (gtag.js) - Google Analytics} --> */}
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `
+        }}
+      />
     </Head>
     <Navbar/>
     <Main>
