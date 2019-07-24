@@ -6,14 +6,16 @@ const Article = styled.article`
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-gap: 8px;
+  margin-bottom: 16px;
 `
 
 const Time = styled.p`
-  font-weight: 700;
+  font-size: 1.1em;
+  margin: 16px 0 0 0;
 `
 
 const Title = styled.h3`
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: 16px 0 0 0;
 `
 

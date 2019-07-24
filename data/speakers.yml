@@ -1,44 +1,86 @@
-- id: sia
-  name: Sia Karamalegos
+- id: diana
+  name: Diana Rodríguez
+  image: /static/diana.png
+  bio: "Diana Rodriguez is a Full Stack Developer & DevOps lover of all things web and cloud!. With over 18 years' experience and a strong background in back end and infrastructure Diana likes to bring together the best of both worlds. She's super enthusiastic about everything to encourage people to start a career in development. In her spare time she likes to play videogames and loves taekwondo."
+  company: Vue Vixens
+  twitter: cotufa82
+- id: ryan
+  name: Ryan Harvey
   image: /static/sia_500.jpg
-  bio: "Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans."
+  bio: "I’m a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I’m passionate about clean, purposeful interfaces and joyous user experiences. I work on video encoding and user recommendations at TED Conferences and teach software engineering and internet technologies at Loyola University New Orleans. I’m the Brigade Captain of Code for New Orleans. I read lots of books, but never seem to get through my reading list. I’m a happy husband and father of two."
+  company: TED
+  twitter: CodeAndData
+  github: siakaramalegos
+  website: http://datascientist.guru/
+  blog: https://medium.com/clio-calliope
+  linkedin: https://www.linkedin.com/in/karamalegos
+- id: robin
+  name: Robin Dykema
+  image: /static/sia_500.jpg
+  bio: "I’m an ESL teacher turned software engineer, so I’m used to presenting information in a clear and informative way. I’m passionate about front-end development and sharing my knowledge with others!"
   company: Clio + Calliope
-  twitter: TheGreenGreek
+  twitter: robindykema
   github: siakaramalegos
   website: https://siakaramalegos.github.io/
   blog: https://medium.com/clio-calliope
   linkedin: https://www.linkedin.com/in/karamalegos
-  color: red
-- id: sia2
-  name: Sia Karamalegos
+- id: ekaba
+  name: Ekaba Bisong
   image: /static/sia_500.jpg
-  bio: "Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans."
-  company: Clio + Calliope
+  bio: "I am a Data Scientist/ Developer at Pythian, a company with expertise in Cloud, Data and Infrastructure services headquartered in Ottawa. In addition, I maintain a relationship with the Intelligent Systems Labs at Carleton University with a research focus on Learning Systems (encompassing learning automata and reinforcement learning), Machine Learning, and Deep Learning. I am a Google Certified Professional Data Engineer, a Google Developer Expert in Machine Learning and author of the book “Building Machine Learning and Deep Learning Models on Google Cloud Platform” (In Review) with Apress (Springer Nature) Publishers."
+  company: Pythian
   twitter: TheGreenGreek
   github: siakaramalegos
+  website: https://ekababisong.org/
+  blog: https://medium.com/clio-calliope
+  linkedin: https://www.linkedin.com/in/karamalegos
+- id: jen
+  name: Jen Tong
+  image: /static/sia_500.jpg
+  bio: "Jen is a Security Advocate on Google Cloud Platform. In this role she helps developers and IT professionals stay out of trouble while getting the most out of cloud computing. Previously she worked in a wide variety of engineering roles from robotics at NASA, to developer advocacy for Google Glass. She is passionate about education, especially on the subjects of technology and science. If she’s away from her laptop, she’s probably GMing a D&D game, or hiking."
+  company: Google
+  twitter: MimmingCodes
+  github: siakaramalegos
+  website: https://mimming.com/
+  blog: https://medium.com/clio-calliope
+  linkedin: https://www.linkedin.com/in/karamalegos
+- id: michelle
+  name: Michelle Brenner
+  image: /static/sia_500.jpg
+  bio: "Michelle is currently a Senior Backend Engineer, with 8+ years experience in tech, from the front lines of support to managing a team. While spending most of her career in entertainment tech, she worked tirelessly to help movies and television get made faster and cheaper. A Philadelphia native, she is an art school graduate and a self-taught Python developer. She also runs an interview format tech podcast called From the Source to answer the question of what tech jobs are really like. Michelle works to promote diversity and inclusion in tech by organizing events, mentoring and conference speaking."
+  company:
+  twitter: michellelynneb
+  github: siakaramalegos
+  website: http://www.michellebrenner.com/
+  blog: https://medium.com/clio-calliope
+  linkedin: https://www.linkedin.com/in/karamalego
+- id: michael
+  name: Michael Solati
+  image: /static/sia_500.jpg
+  bio: "Michael is a Developer Advocate at Typeform as well as a Google Developer Expert in Web Technologies. He has been writing code for five years and has found his love in Angular, Firebase, Progressive Web Apps, and the voodoo ways of the web… Michael has also spoken at various meetups and conferences, including Angular NYC, Techduels, and the United Nations. Michael’s dream side project is a MaaS (Memes as a Service) platform for meme delivery by mail."
+  company: Typeform
+  twitter: MichaelSolati
+  github: siakaramalegos
+  website: https://michaelsolati.com/
+  blog: https://medium.com/clio-calliope
+  linkedin: https://www.linkedin.com/in/karamalegos
+- id: alex
+  name: Alex Muramoto
+  image: /static/sia_500.jpg
+  bio: "Alex is a developer advocate for Google Maps Platform. His past lives are a sordid mix of web dev, hybrid mobile, a lot of documentation, and geo."
+  company: Google
+  twitter: alexmuramoto
+  github: amuramoto
   website: https://siakaramalegos.github.io/
   blog: https://medium.com/clio-calliope
   linkedin: https://www.linkedin.com/in/karamalegos
-  color: yellow
-- id: 3
-  name: Sia Karamalegos
+- id: eva
+  name: Eva PenzeyMoog
   image: /static/sia_500.jpg
-  bio: "Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans."
-  company: Clio + Calliope
-  twitter: TheGreenGreek
+  bio: "Eva PenzeyMoog is a Lead Designer at 8th Light. She works to ensure that digital products cannot be be used as tools of abuse, with the goal of reducing harm in the world through centering the safety of victims of domestic violence. When not designing, coding, or mentoring people new to tech, she spends her time creating botanical cyanotype prints, consuming any zombie-related media she can get her hands on, and playing with her two dogs, Hamlet and Horatio."
+  company: 8th Light
+  twitter: epenzeymoog
   github: siakaramalegos
-  website: https://siakaramalegos.github.io/
+  website: http://evapenzeymoog.com/
   blog: https://medium.com/clio-calliope
   linkedin: https://www.linkedin.com/in/karamalegos
-  color: green
-- id: sia4
-  name: Sia Karamalegos
-  image: /static/sia_500.jpg
-  bio: "Sia Karamalegos is the founder and lead developer for Clio + Calliope. She is a Google Developer Expert in Web Technologies, a Women Techmakers ambassador, and a co-organizer of GDG New Orleans."
-  company: Clio + Calliope
-  twitter: TheGreenGreek
-  github: siakaramalegos
-  website: https://siakaramalegos.github.io/
-  blog: https://medium.com/clio-calliope
-  linkedin: https://www.linkedin.com/in/karamalegos
-  color: blue
