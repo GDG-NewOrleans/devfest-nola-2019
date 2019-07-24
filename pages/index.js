@@ -9,7 +9,9 @@ import GDGLogo from '../components/icons/gdg_logo.svg'
 import Footer from '../components/Footer';
 import Anchor from '../components/elements/Anchor';
 import SpeakersTalksCFP from '../components/SpeakersTalksCFP';
+import Schedule from '../components/Schedule';
 const speakers = require('../data/speakers.yml.json')
+const schedule = require('../data/schedule.yml.json')
 const sponsors = require('../data/sponsors.yml.json')
 const organizers = require('../data/organizers.yml.json')
 
@@ -38,12 +40,13 @@ export default () => (
     </Section>
 
     <Section>
-      <OffsetHeading id="organizers">Speakers</OffsetHeading>
+      <OffsetHeading id="speakers">Speakers</OffsetHeading>
       <PersonList people={speakers} rainbow />
     </Section >
 
     <Section color="blue">
-      <OffsetHeading id="organizers">Schedule</OffsetHeading>
+      <OffsetHeading id="schedule">Schedule</OffsetHeading>
+      <Schedule schedule={schedule} />
     </Section >
 
     <Section>

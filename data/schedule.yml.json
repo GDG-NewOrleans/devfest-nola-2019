@@ -1,25 +1,54 @@
 [
   {
-    "date": "2019-04-15 09:00",
-    "title": "Keynote",
-    "speaker": "daisy",
-    "description": "Lollipop jelly beans tart biscuit icing croissant. Gummies apple pie candy canes. Candy canes gingerbread candy gummies jelly-o fruitcake. Jelly beans gummi bears caramels oat cake halvah cake gummies. Powder chupa chups jelly cake candy liquorice. Pie sweet roll fruitcake marshmallow chocolate. Sesame snaps biscuit apple pie cupcake cake jujubes icing gummi bears. Donut biscuit soufflé macaroon bear claw halvah toffee macaroon.\n"
+    "date": "8:00 am",
+    "title": "Registration & Diversity Breakfast",
+    "id": "registration",
+    "description": "Find your parking spot early and join us for a breakfast hosted by Women Techmakers.\n"
   },
   {
-    "date": "2019-04-15 09:45",
-    "title": "Coffee Break",
-    "description": "Mix and mingle with other conference attendees and speakers"
+    "date": "9:00 am",
+    "title": "Welcome Address",
+    "id": "welcome"
   },
   {
-    "date": "2019-04-15 10:30",
-    "title": "Candy Canes",
-    "speaker": "jay",
+    "date": "9:10 am",
+    "title": "Designing against Domestic Violence",
+    "id": "talk1",
+    "speakerId": "sia",
+    "speaker": "Sia Karamalegos",
+    "description": "The reality of domestic violence doesn’t disappear when people enter the digital world. Abusers use technology to exploit and control their victims, meaning that technologists have a responsibility to ensure that users of our products are empowered to protect their safety. How can we prevent people with violent intentions from forms of abuse and control that are digital, such as exploiting online banking software to control a partners finances or tormenting them with smart home devices? How can we recognize points of possible intervention where we might be able to help a user who is experiencing domestic violence? How can we make it harder for stalkers to find their victims? While there’s no simple answer and ultimately no way to ensure our users’ safety in all situations, thoughtful considerations and small changes while designing and building products can and does result in meaningful contributions to people’s safety. This talk will help the audience get into the right mindset for thinking about safety and provide a framework for building technology against domestic violence.\n"
+  },
+  {
+    "date": "9:40 am",
+    "title": "Talk",
+    "id": "talk2",
+    "speakerId": "sia4",
+    "speaker": "Sia Karamalegos 4",
     "description": "Candy canes cake pudding. Soufflé cake chocolate bar chocolate cake chocolate cake cheesecake cupcake cupcake muffin. Jujubes liquorice sesame snaps pie. Caramels pudding tiramisu jelly-o dragée pie tootsie roll. Macaroon candy halvah tart. Lollipop croissant pie tootsie roll bear claw bear claw donut ice cream. Gummies chupa chups sugar plum cupcake tiramisu candy canes danish wafer. Bonbon candy powder dessert muffin lemon drops. Bonbon brownie cotton candy topping donut ice cream jujubes soufflé.\n"
   },
   {
-    "date": "2019-04-16 09:00",
-    "title": "Pudding",
-    "speaker": "daisy",
-    "description": "Candy canes cake pudding. Soufflé cake chocolate bar chocolate cake chocolate cake cheesecake cupcake cupcake muffin. Jujubes liquorice sesame snaps pie. Caramels pudding tiramisu jelly-o dragée pie tootsie roll. Macaroon candy halvah tart. Lollipop croissant pie tootsie roll bear claw bear claw donut ice cream. Gummies chupa chups sugar plum cupcake tiramisu candy canes danish wafer. Bonbon candy powder dessert muffin lemon drops. Bonbon brownie cotton candy topping donut ice cream jujubes soufflé.\n"
+    "date": "10:10 am",
+    "title": "Break",
+    "id": "break1"
+  },
+  {
+    "date": "12:10 pm",
+    "title": "Lunch",
+    "id": "lunch"
+  },
+  {
+    "date": "2:15 pm",
+    "title": "Break",
+    "id": "break2"
+  },
+  {
+    "date": "3:40 pm",
+    "title": "Break",
+    "id": "break3"
+  },
+  {
+    "date": "4:30 pm",
+    "title": "Closing Address",
+    "id": "closing"
   }
 ]
