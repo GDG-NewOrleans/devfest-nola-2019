@@ -20,30 +20,30 @@ const SocialLink = ({href, children}) => (
 
 export const GithubLink = ({ username }) => (
   <SocialLink href={`https://github.com/${username}`}>
-    <GithubLogo alt="Github" />
+    <GithubLogo />
   </SocialLink>
 )
 
 export const TwitterLink = ({ username }) => (
   <SocialLink href={`https://twitter.com/${username}`}>
-    <TwitterLogo alt="Twitter" />
+    <TwitterLogo />
   </SocialLink>
 )
 
 export const LinkedInLink = ({ link }) => (
   <SocialLink href={link}>
-    <LinkedInLogo alt="LinkedIn" />
+    <LinkedInLogo />
   </SocialLink>
 )
 
 export const WebsiteLink = ({ link }) => (
   <SocialLink href={link}>
-    <WebsiteLogo alt="personal website" />
+    <WebsiteLogo />
   </SocialLink>
 )
 
 export const BlogLink = ({ link }) => (
   <SocialLink href={link}>
-    <BlogLogo alt="blog" />
+    <BlogLogo />
   </SocialLink>
 )
