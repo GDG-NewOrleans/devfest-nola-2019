@@ -88,11 +88,11 @@
   },
   {
     "date": "3:10 pm",
-    "title": "Large scale geo data visualization with Google Maps Platform and Deck.gl",
+    "title": "Awesome data visualization on the web with Google Maps Platform and Deck.gl",
     "id": "deckgl",
     "speakerId": "alex",
     "speaker": "Alex Muramoto",
-    "description": "Google Maps Platform recently announced initial support for the open-source Deck.gl framework, which enables beautiful, performant 3D data visualization for large data sets using the Maps JS API. In this session, we’ll cover the Deck.gl framework, how it works with Google Maps Platform, and some demos of several Deck.gl layer visualization.\n"
+    "description": "The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.\n"
   },
   {
     "date": "3:40 pm",

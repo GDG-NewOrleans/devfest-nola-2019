@@ -68,12 +68,12 @@
   description: >
     Everyone loves a good spooky story! (Or is cowering under their bed sheets… Either/or…) And what better to captivate the audience than letting them choose their own scare? We all can’t be in the same illustrious class of penmen as R.L. Stine, but we can create compelling experiences with tools such as Typeform! Code doesn’t always tell a compelling story, but conversational UIs developer with easy to use logic jumps can help you craft your own interactive adventure. See how to use the Typeform to give your conversational UIs a voice on the Google Assistant with Dialogflow. Now you can spread your stories reach to more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and more.
 - date: 3:10 pm
-  title: Large scale geo data visualization with Google Maps Platform and Deck.gl
+  title: Awesome data visualization on the web with Google Maps Platform and Deck.gl
   id: deckgl
   speakerId: alex
   speaker: Alex Muramoto
   description: >
-    Google Maps Platform recently announced initial support for the open-source Deck.gl framework, which enables beautiful, performant 3D data visualization for large data sets using the Maps JS API. In this session, we’ll cover the Deck.gl framework, how it works with Google Maps Platform, and some demos of several Deck.gl layer visualization.
+    The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.
 - date: 3:40 pm
   title: Break
   id: break3
