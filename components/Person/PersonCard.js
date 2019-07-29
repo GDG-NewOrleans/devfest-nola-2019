@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import { GithubLink, TwitterLink, LinkedInLink, WebsiteLink, BlogLink } from "../SocialLink";
+import ProfileImage from '../elements/ProfileImage';
 
 const StyledCard = styled.div`
   /* offsetting location for links */
-  margin-top: -90px;
+  margin: -74px 0 16px 0;
   padding: 106px 16px 16px 16px;
   text-align: center;
   width: 272px;
@@ -15,12 +16,6 @@ const StyledCard = styled.div`
   &.card h2 { font-size: 1.4em; }
 `
 
-const StyledImg = styled.img`
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-`
-
 const PersonCard = ({name, image, bio, company, twitter, github, linkedin, website, blog, color, id}) => {
   // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
   const ghPages = false
@@ -29,7 +24,7 @@ const PersonCard = ({name, image, bio, company, twitter, github, linkedin, websi
 
   return (
     <StyledCard className="card" id={id}>
-      <StyledImg src={img} alt={name} color={color} />
+      <ProfileImage src={img} alt={name} />
       <h1>{name}</h1>
       <h2>{company}</h2>
       <p>{bio}</p>
