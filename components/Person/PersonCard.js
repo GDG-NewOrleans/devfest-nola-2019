@@ -4,13 +4,15 @@ import ProfileImage from '../elements/ProfileImage';
 
 const StyledCard = styled.div`
   /* offsetting location for links */
-  margin: -74px 0 16px 0;
-  padding: 106px 16px 16px 16px;
+  margin: 16px 0;
+  padding: 16px;
   text-align: center;
   width: 272px;
 
   &.card h1 {
     font-size: 1.6em;
+    margin-top: -250px;
+    padding-top: 250px;
     margin-bottom: 0;
   }
   &.card h2 { font-size: 1.4em; }
@@ -23,9 +25,9 @@ const PersonCard = ({name, image, bio, company, twitter, github, linkedin, websi
   const img = `${assetPrefix}${image}`
 
   return (
-    <StyledCard className="card" id={id}>
+    <StyledCard className="card">
       <ProfileImage src={img} alt={name} />
-      <h1>{name}</h1>
+      <h1 id={id}>{name}</h1>
       <h2>{company}</h2>
       <p>{bio}</p>
       <p>
