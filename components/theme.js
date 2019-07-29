@@ -13,7 +13,7 @@ export default {
     yellow: '#FBBC04',
     yellowLight: '#fcd151',
     green: '#0F9D58',
-    greenLight: '#5aefa7',
+    greenLight: '#11b465',
     blueExtraLight: '#e9f1fe',
     lightGrey: '#eee',
   }

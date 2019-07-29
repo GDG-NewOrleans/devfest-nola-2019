@@ -2,13 +2,19 @@ import styled from 'styled-components'
 import Layout from "../components/Layout";
 import PersonList from "../components/Person/PersonList";
 import AnchorButton from "../components/elements/AnchorButton";
+import OffsetHeading from "../components/elements/OffsetHeading";
 import Section from "../components/elements/Section";
 import SponsorList from "../components/SponsorList";
 import GDGLogo from '../components/icons/gdg_logo.svg'
 import Footer from '../components/Footer';
 import Anchor from '../components/elements/Anchor';
-const organizers = require('../data/organizers.yml.json')
+import Schedule from '../components/Schedule';
+import Emcee from '../components/Emcee';
+const speakers = require('../data/speakers.yml.json')
+const emcee = require('../data/mc.yml.json')[0]
+const schedule = require('../data/schedule.yml.json')
 const sponsors = require('../data/sponsors.yml.json')
+const organizers = require('../data/organizers.yml.json')
 
 const Title = styled.h1`
   font-family: 'Product Sans', sans-serif;
@@ -17,12 +23,6 @@ const Title = styled.h1`
   &#title {
     font-size: 3em;
   }
-`
-
-// Offset scroll position due to navbar positioning
-const OffsetHeading = styled.h1`
-  margin-top: -90px;
-  padding-top: 90px;
 `
 
 export default () => (
@@ -40,14 +40,20 @@ export default () => (
       </p>
     </Section>
 
-    <Section color="blue">
-      <OffsetHeading id="speakers">Speakers &amp; Talks</OffsetHeading>
-      <p>We are looking for speakers to deliver innovative talks in web, mobile, UI/UX, cloud, emerging technologies and more. Got a talk idea? We want to hear from you!</p>
-      <p>The CFP closes on June 30, 2019.</p>
-      <p className="cta">
-        <AnchorButton color="white/blue" href="https://www.papercall.io/devfest-neworleans" target="_blank" rel="noopener noreferrer">Submit your talk</AnchorButton>
-      </p>
+    <Section>
+      <OffsetHeading id="speakers">Speakers</OffsetHeading>
+      <PersonList people={speakers} rainbow />
     </Section>
+
+    <Section>
+      <OffsetHeading id="emcee">Master of Ceremonies</OffsetHeading>
+      <Emcee {...emcee} />
+    </Section >
+
+    <Section color="blue">
+      <OffsetHeading id="schedule">Schedule</OffsetHeading>
+      <Schedule schedule={schedule} />
+    </Section >
 
     <Section>
       <OffsetHeading id="sponsors">Sponsors</OffsetHeading>

@@ -4,6 +4,23 @@
     "name": "Google",
     "link": "https://developers.google.com/programs/community/",
     "logo": "/static/googlelogo.png",
-    "tier": "platinum"
+    "tier": "platinum",
+    "width": "270px"
+  },
+  {
+    "id": "wtmnola",
+    "name": "Women Techmakers New Orleans",
+    "link": "https://www.meetup.com/gdg-new-orleans/",
+    "logo": "/static/WTM_logo.png",
+    "tier": "silver",
+    "width": "350px"
+  },
+  {
+    "id": "mark",
+    "name": "mark",
+    "link": "http://mark.institute",
+    "logo": "/static/marklogo.png",
+    "tier": "silver",
+    "width": "270px"
   }
 ]

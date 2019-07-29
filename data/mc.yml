@@ -1,7 +1,10 @@
-- id: mc-jay
-  name: Jay Gatsby
-  image: https://upload.wikimedia.org/wikipedia/en/4/42/JayGatsby1.jpg
-  bio: A mysterious millionaire with shady business connections.
-  company: Gatsby
-  twitter: gatsbyjs
-  github: gatsbyjs
+- id: mc-gant
+  name: Gant G Laborde
+  image: /static/gant.jpg
+  bio: Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is an “open sourcerer”, team leader, and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at <a href="http://gantlaborde.com/">gantlaborde.com</a>.
+  company: Infinite Red
+  twitter: GantLaborde
+  website: http://gantlaborde.com/
+  blog: https://medium.com/@gantlaborde
+  linkedin: https://www.linkedin.com/in/gant-laborde/
+  github: gantman

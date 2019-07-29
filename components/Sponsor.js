@@ -1,4 +1,10 @@
-const Sponsor = ({name, link, logo}) => {
+import styled from 'styled-components'
+
+const Image = styled.img`
+  margin: 32px;
+`
+
+const Sponsor = ({name, link, logo, width}) => {
   // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
   const ghPages = false
   const assetPrefix = ghPages ? '/devfest-nola-2019' : ''
@@ -6,7 +12,7 @@ const Sponsor = ({name, link, logo}) => {
 
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
-      <img src={img} alt={name} />
+      <Image src={img} alt={name} width={width} />
     </a>
   )
   }
