@@ -36,7 +36,7 @@
   speakerId: ekaba
   speaker: Ekaba Bisong
   description: >
-    The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them within a software product. Some of these new features include a more pythonic feel to model design and debugging, using tf.function to transform a Python method into high-performance TensorFlow graphs, using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products. Example of these tools includes TensorFlow Data Validation to analyze large-scale datasets, TensorFlow Model Analysis to visualize model metrics for deployment and TensorFlow Serving for deploying models.
+    The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them for integration with software products. Some of these new features include using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products.
 - date: 11:40 am
   title: Help Keep the Internet Safe with WebAuthn Inbox x
   id: webauthn

@@ -32,8 +32,8 @@
     "id": "ekaba",
     "name": "Ekaba Bisong",
     "image": "/static/ekaba.png",
-    "bio": "Ekaba is a Data Scientist/ Developer at Pythian. He works with the Intelligent Systems Labs at Carleton University and is a Google Certified Professional Data Engineer, a Google Developer Expert in Machine Learning, and author of the book “Building Machine Learning and Deep Learning Models on Google Cloud Platform”.",
-    "company": "Pythian",
+    "bio": "Ekaba is a Data Science Lead at T4G. Also, he is a member of the Intelligent Systems Labs at Carleton University with a research focus on Learning Systems (encompassing learning automata and reinforcement learning), Machine Learning, and Deep Learning. Ekaba is a Google Developer Expert in Machine Learning, and a Google Certified Professional Data Engineer. He is the author of the book \"Building Machine Learning and Deep Learning Models on Google Cloud Platform\" (In Production) with Apress (Springer Nature) Publishers.",
+    "company": "T4G",
     "github": "dvdbisong",
     "website": "https://ekababisong.org/",
     "blog": "https://ekababisong.org/writings/",
@@ -78,13 +78,13 @@
     "id": "alex",
     "name": "Alex Muramoto",
     "image": "/static/alex.jpg",
-    "bio": "Alex is a developer advocate for Google Maps Platform. His past lives are a sordid mix of web dev, hybrid mobile, a lot of documentation, and geo.",
+    "bio": "Alex is a developer advocate for Google Maps Platform. His past lives are a mix of web dev, hybrid mobile, chatbots, a lot of documentation, and geo.",
     "company": "Google",
     "twitter": "alexmuramoto",
     "github": "amuramoto",
-    "website": "http://www.eatcodecorgi.com/",
-    "blog": "https://medium.com/clio-calliope",
-    "linkedin": "https://www.linkedin.com/in/karamalegos"
+    "website": "http://developers.google.com/maps/documentation/",
+    "blog": "https://cloud.google.com/blog/products/maps-platform",
+    "linkedin": "https://www.linkedin.com/in/amuramoto"
   },
   {
     "id": "sonia",
