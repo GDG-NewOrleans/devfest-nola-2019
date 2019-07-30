@@ -50,6 +50,8 @@
 - date: 1:10 pm
   title: Lightning Talks
   id: lightning
+  htmlDescription: >
+    Deep Gratitude, Deep Focus by <a href="https://github.com/arilfrankel">Ari Leo Frankel</a><br />Host a custom blog for FREE! by <a href="https://twitter.com/prpatel">Pratik Patel</a>
 - date: 1:45 pm
   title: "Serverless App Starter Kit: How to choose a cloud provider."
   id: serverless

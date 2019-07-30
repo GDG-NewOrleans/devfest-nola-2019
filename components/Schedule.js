@@ -7,6 +7,8 @@ const Article = styled.article`
   grid-template-columns: 100px 1fr;
   grid-gap: 8px;
   margin-bottom: 16px;
+  a { color: white; }
+  a:hover{ color: ${theme.colors.lightGrey}; }
 `
 
 const Time = styled.p`
@@ -34,7 +36,7 @@ const SpeakerLink = styled.a`
   }
 `
 
-const Event = ({title, date, speaker, speakerId, description}) => (
+const Event = ({ title, date, speaker, speakerId, description, htmlDescription}) => (
   <Article>
     <Time>{date}</Time>
     <div>
@@ -44,7 +46,8 @@ const Event = ({title, date, speaker, speakerId, description}) => (
           <Speaker>{speaker}</Speaker>
         </SpeakerLink>
       </Link>}
-      { !!description && <p>{description}</p> }
+      {!!description && <p>{description}</p>}
+      {!!htmlDescription && <p dangerouslySetInnerHTML={{ __html: htmlDescription }}></p> }
     </div>
   </Article>
 )
