@@ -24,7 +24,7 @@
 - id: ekaba
   name: Ekaba Bisong
   image: /static/ekaba.png
-  bio: Ekaba is a Data Science Lead at T4G. Also, he is a member of the Intelligent Systems Labs at Carleton University with a research focus on Learning Systems (encompassing learning automata and reinforcement learning), Machine Learning, and Deep Learning. Ekaba is a Google Developer Expert in Machine Learning, and a Google Certified Professional Data Engineer. He is the author of the book "Building Machine Learning and Deep Learning Models on Google Cloud Platform" (In Production) with Apress (Springer Nature) Publishers.
+  bio: Ekaba is a Data Science Lead at T4G. He is a Google Developer Expert in Machine Learning, and is the author of the book "Building Machine Learning and Deep Learning Models on Google Cloud Platform" (In Production) with Apress (Springer Nature) Publishers.
   company: T4G
   github: dvdbisong
   website: https://ekababisong.org/
