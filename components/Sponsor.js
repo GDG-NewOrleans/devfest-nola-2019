@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const Image = styled.img`
   margin: 32px;
+  max-width: 80%;
 `
 
 const Sponsor = ({name, link, logo, width}) => {

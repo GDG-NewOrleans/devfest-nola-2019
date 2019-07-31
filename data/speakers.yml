@@ -43,11 +43,10 @@
 - id: michelle
   name: Michelle Brenner
   image: /static/michelle.jpg
-  bio: "Michelle is a Senior Backend Engineer, with 8+ years experience in tech. A Philadelphia native, she is an art school graduate and a self-taught Python developer. She also runs an interview format tech podcast called From the Source. Michelle works to promote diversity and inclusion by organizing events, mentoring and speaking."
+  bio: Michelle is a Senior Backend Engineer, with 9+ years experience in tech, from engineering support to manager. She runs a tech podcast (From The Source) and works to promote DE&I in tech.
   company: ChowNow
   twitter: michellelynneb
   website: http://www.michellebrenner.com/
-  blog: http://www.michellebrenner.com/media/from-the-source-podcast/
   linkedin: https://www.linkedin.com/in/michellebrenner/
 - id: michael
   name: Michael Solati
