@@ -30,5 +30,13 @@
     "logo": "/static/marklogo.png",
     "tier": "silver",
     "width": "270px"
+  },
+  {
+    "id": "ir",
+    "name": "Infinite Red",
+    "link": "https://infinite.red/",
+    "logo": "/static/ir_logo_1000w.png",
+    "tier": "bronze",
+    "width": "270px"
   }
 ]
