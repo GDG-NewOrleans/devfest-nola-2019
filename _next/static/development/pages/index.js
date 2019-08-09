@@ -1487,6 +1487,54 @@ var SponsorList = function SponsorList(_ref) {
 
 /***/ }),
 
+/***/ "./components/Tito.js":
+/*!****************************!*\
+  !*** ./components/Tito.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
+var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Tito.js";
+
+
+
+var Tito = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Tito",
+  componentId: "ulkgqu-0"
+})(["*/ *{box-sizing:border-box}.tito-wrapper{border:1px solid #ccc;background:white;color:#333;margin:20px auto;max-width:900px;padding:10px 0 0 0;width:100%}.tito-ticket-list{display:block;list-style-type:none;margin:0;padding:0;width:100%}#tito-previous-releases,.tito-ticket-list.tito-ticket-waitlist{margin:0}.tito-ticket.row{display:block;border-bottom:1px solid #ccc;margin:0 15px;min-height:54px;padding:10px 0}.tito-ticket:after{content:'';display:table;clear:both}.tito-ticket-name-wrapper,.tito-ticket-price-quantity-wrapper{border:none;display:block;float:left;width:100%}@media screen and (min-width:520px){.tito-ticket-name-wrapper,.tito-ticket-price-quantity-wrapper{width:50%}}.tito-ticket-name{display:block;font-size:16px;font-weight:normal;line-height:1.2;margin:8px 0 5px}.tito-ticket-name .label.label-default{border:1px solid #333;color:#333;font-size:10px;font-weight:bold;margin-left:5px;padding:2px 5px;position:relative;top:-1px;text-transform:uppercase}.tito-ticket-name-wrapper .tito-tickets-remaining{background:#ddd;border:1px solid rgba(51,51,51,0.2);color:#333;font-size:10px;padding:2px 5px;position:relative;top:-3px;margin-left:10px;white-space:nowrap}.tito-ticket-description{color:#adadad;font-size:12px}.tito-degressive-price-desc+.tito-ticket-description{margin-top:.5rem}.tito-ticket-price-quantity{display:flex;align-items:center;text-align:right;width:auto}@media screen and (min-width:520px){.tito-ticket-price-quantity{float:right}}.tito-ticket-price{float:left;text-align:left;width:50%}@media screen and (min-width:520px){.tito-ticket-price{text-align:right;width:auto}}.tito-ticket-quantity{float:right;min-width:70px}.tito-ticket-quantity span{margin:0 10px}input[type=text].tito-ticket-quantity-field,input[type=text].tito-ticket-donation-field{background-color:#fff;border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);color:#333;display:inline-block;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center}input[type=text].tito-ticket-quantity-field{width:45px}input[type=text].tito-ticket-donation-field{width:85px;margin-left:6px}.tito-ticket-price span{display:block;font-size:16px;line-height:34px}.tito-ticket-vat{color:#adadad;font-size:10px;padding-bottom:5px}.tito-ticket-status span{background:#efefef;color:#adadad;display:inline-block;font-size:14px;height:34px;line-height:34px;min-width:90px;padding:0 10px;text-align:center;text-decoration:none;width:100%}.btn.btn-default.btn-waitlist{background:#fff;border:1px solid #ccc;color:#333;font-size:14px;height:34px;line-height:1.42857143;padding:6px 12px;white-space:nowrap;width:200px}.btn.btn-default.btn-waitlist:hover{border:1px solid #333}.tito-discount-code{display:block;margin:0 30px;padding:5px 0}@media screen and (min-width:520px){.tito-discount-code{float:left}}.tito-discount-code-label{display:none}.btn.btn-default.tito-discount-apply-button{display:none}.tito-discount-code .tab-pane.tito-discount-code-show.active{display:none}.tito-discount-code .tab-pane.tito-discount-code-edit{display:block;visibility:visible}input.form-control.tito-discount-code-field.discount-code-field{background:#fff;border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);display:inline-block;font-size:14px;height:34px;line-height:1.42857143;margin:5px 0;padding:6px 12px;width:100%}@media screen and (min-width:520px){input.form-control.tito-discount-code-field.discount-code-field{width:200px}}.tito-discount-code-show{padding-top:15px}.tito-discount-code-edit,.tito-discount-code-show{display:none}.tito-discount-code-edit.active,.tito-discount-code-show.active{display:inline-block}.tito-submit-wrapper{margin:0 15px;padding:10px 0;text-align:right}.tito-submit{background:", ";border:1px solid #357ebd;color:#fff;cursor:pointer;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center;width:100%}@media screen and (min-width:520px){.tito-submit{width:100px}}.tito-submit:hover{background:", "}.tito-ticket.tito-locked-ticket>div{padding:10px 0}.tito-ticket.tito-locked-ticket label,.tito-ticket.tito-locked-ticket span{opacity:.5}.locked-tickets-message p{font-size:14px;line-height:1.3;opacity:.5}.tito-badge-link{font-size:12px;display:inline-block;margin:15px 0 5px;text-align:center;width:100%}"], _theme__WEBPACK_IMPORTED_MODULE_2__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_2__["default"].colors.blueLight);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tito, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    src: "https://js.tito.io/v1",
+    async: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tito-widget", {
+    event: "gdg-new-orleans/devfest-new-orleans-2019",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }));
+});
+
+/***/ }),
+
 /***/ "./components/elements/Anchor.js":
 /*!***************************************!*\
   !*** ./components/elements/Anchor.js ***!
@@ -2386,7 +2434,7 @@ module.exports = [{"id":"guzman","name":"Chris Guzman","image":"/static/guzman_5
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, default */
 /***/ (function(module) {
 
-module.exports = [{"date":"8:00 am","title":"Registration & Diversity Breakfast","id":"registration","description":"Find your parking spot early and join us for a breakfast sponsored and hosted by Women Techmakers.\n"},{"date":"9:00 am","title":"Welcome Address","id":"welcome"},{"date":"9:10 am","title":"Deployment 101 for Frontenders","id":"deployment","speakerId":"diana","speaker":"Diana Rodríguez","description":"We make amazing applications! how about the deployment process? Is there an easy way to get around shipping apps?. From a DevOps turned Frontend thanks to Vue.js learn quick ‘n easy ways to deploy your applications without frustration.\n"},{"date":"9:40 am","title":"Modeling the conceptual structure of ffmpeg in JavaScript","id":"ffmpeg","speakerId":"ryan","speaker":"Ryan Harvey","description":"A core tool in many video developers’ workflows, ffmpeg has a frustratingly steep learning curve and a difficult syntax to master. Many video developers write code to automate ffmpeg runs, and Node.js is a popular way to do that. However, current JavaScript interfaces to ffmpeg do nothing to ease the underlying difficulty of the tool. In this talk, I’ll introduce you to a new library I’ve built for Node.js to make that process easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.\n"},{"date":"10:10 am","title":"Break","id":"break1"},{"date":"10:30 am","title":"CSS For People That Hate CSS","id":"css","speakerId":"robin","speaker":"Robin Dykema","description":"What’s the difference between Flexbox and CSS grid? Should I use a preprocessor? Why is it so hard to center a <div>?! Can’t I just use Bootstrap or Materials UI instead? Learn the basics of CSS, along with strategies and resources for writing better CSS. *Hating CSS is not a prerequisite for attending this talk\n"},{"date":"11:05 am","title":"Building Machine Learning Products with TensorFlow 2.0","id":"tensorflow","speakerId":"ekaba","speaker":"Ekaba Bisong","description":"The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them for integration with software products. Some of these new features include using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products.\n"},{"date":"11:40 am","title":"Help Keep the Internet Safe with WebAuthn Inbox x","id":"webauthn","speakerId":"jen","speaker":"Jen Tong","description":"Account takeovers continue to be part of major security incidents. Decades of password education haven't helped. Phishing campaigns have become more effective than ever. Sometimes it seems like we're losing. But there is hope! The WebAuthn protocol provides a stronger way for users to authenticate. It uses secure hardware and asymmetric cryptography to provide a strong addition to passwords, or a replacement. Best of all, it's easy to implement, and already widely supported. Come to this talk to learn how WebAuthn works, how you can use it yourself, and how to add support to your software.\n"},{"date":"12:10 pm","title":"Lunch","id":"lunch"},{"date":"1:10 pm","title":"Lightning Talks","id":"lightning","htmlDescription":"Deep Gratitude, Deep Focus by <a href=\"https://github.com/arilfrankel\">Ari Leo Frankel</a><br />Host a custom blog for FREE! by <a href=\"https://twitter.com/prpatel\">Pratik Patel</a><br />Conversational Design for AI Chatbots by <a href=\"https://lynsey.design/\">Lynsey Gwin</a>\n"},{"date":"1:45 pm","title":"Serverless App Starter Kit: How to choose a cloud provider","id":"serverless","speakerId":"michelle","speaker":"Michelle Brenner","description":"Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I’ve done the work for you. I have created a simple app with AWS, Google Cloud & Microsoft Azure. I’ll compare how each one from an idea to a professional production pipeline.\n"},{"date":"2:15 pm","title":"Break","id":"break2"},{"date":"2:35 pm","title":"Reader Beware, Choose Your Own Scare...","id":"typeform","speakerId":"michael","speaker":"Michael Solati","description":"Everyone loves a good spooky story! (Or is cowering under their bed sheets… Either/or…) And what better to captivate the audience than letting them choose their own scare? We all can’t be in the same illustrious class of penmen as R.L. Stine, but we can create compelling experiences with tools such as Typeform! Code doesn’t always tell a compelling story, but conversational UIs developer with easy to use logic jumps can help you craft your own interactive adventure. See how to use the Typeform to give your conversational UIs a voice on the Google Assistant with Dialogflow. Now you can spread your stories reach to more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and more.\n"},{"date":"3:10 pm","title":"Awesome data visualization on the web with Google Maps Platform and Deck.gl","id":"deckgl","speakerId":"alex","speaker":"Alex Muramoto","description":"The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.\n"},{"date":"3:40 pm","title":"Break","id":"break3"},{"date":"4:00 pm","title":"Digital Ethics in an Unethical Era: How to Not Ruin The World","id":"ethics","speakerId":"sonia","speaker":"Sonia Gupta","description":"As we become increasingly reliant upon digital infrastructure and software in all aspects of our lives, technologists hold the safety and well-being of humanity in our hands. In this talk, we’ll take a journey through the history of digital ethics and explore what it means for all of us as technologists today. We’ll also examine some of the technical and social aspects of maintaining an ethical infrastructure and software development practice. Knowing our history and current limitations will help us to ensure that we understand our obligation, as stewards of technology, to do no harm.\n"},{"date":"4:30 pm","title":"Closing Address","id":"closing"}];
+module.exports = [{"date":"8:00 am","title":"Registration & Diversity Breakfast","id":"registration","description":"Find your parking spot early and join us for a breakfast sponsored and hosted by Women Techmakers.\n"},{"date":"9:00 am","title":"Welcome Address","id":"welcome"},{"date":"9:10 am","title":"Deployment 101 for Frontenders","id":"deployment","speakerId":"diana","speaker":"Diana Rodríguez","description":"We make amazing applications! how about the deployment process? Is there an easy way to get around shipping apps?. From a DevOps turned Frontend thanks to Vue.js learn quick ‘n easy ways to deploy your applications without frustration.\n"},{"date":"9:40 am","title":"Modeling the conceptual structure of ffmpeg in JavaScript","id":"ffmpeg","speakerId":"ryan","speaker":"Ryan Harvey","description":"A core tool in many video developers’ workflows, ffmpeg has a frustratingly steep learning curve and a difficult syntax to master. Many video developers write code to automate ffmpeg runs, and Node.js is a popular way to do that. However, current JavaScript interfaces to ffmpeg do nothing to ease the underlying difficulty of the tool. In this talk, I’ll introduce you to a new library I’ve built for Node.js to make that process easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.\n"},{"date":"10:10 am","title":"Break","id":"break1"},{"date":"10:30 am","title":"CSS For People That Hate CSS","id":"css","speakerId":"robin","speaker":"Robin Dykema","description":"What’s the difference between Flexbox and CSS grid? Should I use a preprocessor? Why is it so hard to center a <div>?! Can’t I just use Bootstrap or Materials UI instead? Learn the basics of CSS, along with strategies and resources for writing better CSS. *Hating CSS is not a prerequisite for attending this talk\n"},{"date":"11:05 am","title":"Building Machine Learning Products with TensorFlow 2.0","id":"tensorflow","speakerId":"ekaba","speaker":"Ekaba Bisong","description":"The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them for integration with software products. Some of these new features include using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products.\n"},{"date":"11:40 am","title":"Help Keep the Internet Safe with WebAuthn","id":"webauthn","speakerId":"jen","speaker":"Jen Tong","description":"Account takeovers continue to be part of major security incidents. Decades of password education haven't helped. Phishing campaigns have become more effective than ever. Sometimes it seems like we're losing. But there is hope! The WebAuthn protocol provides a stronger way for users to authenticate. It uses secure hardware and asymmetric cryptography to provide a strong addition to passwords, or a replacement. Best of all, it's easy to implement, and already widely supported. Come to this talk to learn how WebAuthn works, how you can use it yourself, and how to add support to your software.\n"},{"date":"12:10 pm","title":"Lunch","id":"lunch"},{"date":"1:10 pm","title":"Lightning Talks","id":"lightning","htmlDescription":"Deep Gratitude, Deep Focus by <a href=\"https://github.com/arilfrankel\">Ari Leo Frankel</a><br />Host a custom blog for FREE! by <a href=\"https://twitter.com/prpatel\">Pratik Patel</a><br />Conversational Design for AI Chatbots by <a href=\"https://lynsey.design/\">Lynsey Gwin</a>\n"},{"date":"1:45 pm","title":"Serverless App Starter Kit: How to choose a cloud provider","id":"serverless","speakerId":"michelle","speaker":"Michelle Brenner","description":"Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I’ve done the work for you. I have created a simple app with AWS, Google Cloud & Microsoft Azure. I’ll compare how each one from an idea to a professional production pipeline.\n"},{"date":"2:15 pm","title":"Break","id":"break2"},{"date":"2:35 pm","title":"Reader Beware, Choose Your Own Scare...","id":"typeform","speakerId":"michael","speaker":"Michael Solati","description":"Everyone loves a good spooky story! (Or is cowering under their bed sheets… Either/or…) And what better to captivate the audience than letting them choose their own scare? We all can’t be in the same illustrious class of penmen as R.L. Stine, but we can create compelling experiences with tools such as Typeform! Code doesn’t always tell a compelling story, but conversational UIs developer with easy to use logic jumps can help you craft your own interactive adventure. See how to use the Typeform to give your conversational UIs a voice on the Google Assistant with Dialogflow. Now you can spread your stories reach to more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and more.\n"},{"date":"3:10 pm","title":"Awesome data visualization on the web with Google Maps Platform and Deck.gl","id":"deckgl","speakerId":"alex","speaker":"Alex Muramoto","description":"The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.\n"},{"date":"3:40 pm","title":"Break","id":"break3"},{"date":"4:00 pm","title":"Digital Ethics in an Unethical Era: How to Not Ruin The World","id":"ethics","speakerId":"sonia","speaker":"Sonia Gupta","description":"As we become increasingly reliant upon digital infrastructure and software in all aspects of our lives, technologists hold the safety and well-being of humanity in our hands. In this talk, we’ll take a journey through the history of digital ethics and explore what it means for all of us as technologists today. We’ll also examine some of the technical and social aspects of maintaining an ethical infrastructure and software development practice. Knowing our history and current limitations will help us to ensure that we understand our obligation, as stewards of technology, to do no harm.\n"},{"date":"4:30 pm","title":"Closing Address","id":"closing"}];
 
 /***/ }),
 
@@ -2408,7 +2456,7 @@ module.exports = [{"id":"diana","name":"Diana Rodríguez","image":"/static/diana
 /*! exports provided: 0, 1, 2, 3, 4, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"},{"id":"wtmnola","name":"Women Techmakers New Orleans","link":"https://www.meetup.com/gdg-new-orleans/","logo":"/static/WTM_logo.png","tier":"silver","width":"350px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"ir","name":"Infinite Red","link":"https://infinite.red/","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"}];
+module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"},{"id":"wtmnola","name":"Women Techmakers New Orleans","link":"https://www.meetup.com/gdg-new-orleans/","logo":"/static/WTM_logo.png","tier":"silver","width":"350px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"ir","name":"Infinite Red","link":"https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"}];
 
 /***/ }),
 
@@ -16773,8 +16821,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/elements/Anchor */ "./components/elements/Anchor.js");
 /* harmony import */ var _components_Schedule__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Schedule */ "./components/Schedule.js");
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
+/* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
 var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/index.js";
+
 
 
 
@@ -16807,21 +16857,21 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -16833,32 +16883,32 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }), " DevFest New Orleans 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, "October 5, 2019"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, "We are pleased to offer a limited number of scholarships to potential attendees who would experience financial hardship. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -16868,14 +16918,20 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
-  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -16885,20 +16941,20 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, "Speakers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -16906,80 +16962,80 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
     rainbow: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "emcee",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     },
     __self: this
   }, "Master of Ceremonies"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Emcee__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, emcee, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "schedule",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }, "Schedule"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schedule__WEBPACK_IMPORTED_MODULE_12__["default"], {
     schedule: schedule,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 62
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 63
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -16988,34 +17044,34 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 65
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 70
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 71
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 74
     },
     __self: this
   }));
