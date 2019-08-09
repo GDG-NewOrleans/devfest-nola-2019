@@ -38,13 +38,15 @@ const Tito = styled.div`
   .tito-discount-code-show{padding-top:15px}.tito-discount-code-edit,.tito-discount-code-show{display:none}
   .tito-discount-code-edit.active,.tito-discount-code-show.active{display:inline-block}
   .tito-submit-wrapper{margin:0 15px;padding:10px 0;text-align:right}
-  .tito-submit{background:${theme.colors.blue};border:1px solid #357ebd;color:#fff;cursor:pointer;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center;width:100%}
+  .tito-submit{background:${theme.colors.green};color:#fff;border-color:transparent;cursor:pointer;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center;width:100%}
   @media screen and (min-width: 520px){.tito-submit{width:100px}}
-  .tito-submit:hover{background:${theme.colors.blueLight}}
+  .tito-submit:hover{background:${theme.colors.greenLight}}
   .tito-ticket.tito-locked-ticket>div{padding:10px 0}
   .tito-ticket.tito-locked-ticket label,.tito-ticket.tito-locked-ticket span{opacity:.5}
   .locked-tickets-message p{font-size:14px;line-height:1.3;opacity:.5}
   .tito-badge-link{font-size:12px;display:inline-block;margin:15px 0 5px;text-align:center;width:100%}
+  .tito-badge-link a {color: ${theme.colors.green}}
+  .tito-badge-link a:hover {color: ${theme.colors.greenLight}}
 `
 
 export default () => (
