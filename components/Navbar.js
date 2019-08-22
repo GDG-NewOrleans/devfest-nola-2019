@@ -5,7 +5,7 @@ import GDGLogo from './icons/gdg_logo.svg'
 import AnchorButton from './elements/AnchorButton'
 import MobileMenu from './MobileNav'
 
-export const NAV_BREAKPOINT = '800px'
+export const NAV_BREAKPOINT = '885px'
 
 const StyledLink = styled.a`
   color: ${theme.colors.blue};
@@ -18,7 +18,7 @@ const StyledLink = styled.a`
 `
 
 const Nav = styled.nav`
-  background: white;
+  background: rgba(255,255,255,0.97);
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,6 +56,7 @@ export const Navbar = () => {
         <NavLinks>
           <Link passHref href="/"><StyledLink>Home</StyledLink></Link>
           <Link passHref href="/#speakers"><StyledLink>Speakers</StyledLink></Link>
+          <Link passHref href="/#schedule"><StyledLink>Talks</StyledLink></Link>
           <Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link>
           <Link passHref href="/location"><StyledLink>Location</StyledLink></Link>
           <Link passHref href="/conduct"><StyledLink>Code of Conduct</StyledLink></Link>

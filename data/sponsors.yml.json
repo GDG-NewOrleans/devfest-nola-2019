@@ -8,6 +8,14 @@
     "width": "270px"
   },
   {
+    "id": "iseatz",
+    "name": "iSeatz",
+    "link": "https://www.iseatz.com/",
+    "logo": "/static/iseatz-red-back-logo.svg",
+    "tier": "gold",
+    "width": "270px"
+  },
+  {
     "id": "loyola",
     "name": "Loyola Center for Entrepreneurship and Community Development",
     "link": "http://business.loyno.edu/cecd",
@@ -16,12 +24,12 @@
     "width": "450px"
   },
   {
-    "id": "wtmnola",
-    "name": "Women Techmakers New Orleans",
-    "link": "https://www.meetup.com/gdg-new-orleans/",
-    "logo": "/static/WTM_logo.png",
+    "id": "cotingasoft",
+    "name": "CotingaSoft",
+    "link": "https://cotingasoft.com/",
+    "logo": "/static/cotingasoft.png",
     "tier": "silver",
-    "width": "350px"
+    "width": "270px"
   },
   {
     "id": "mark",
