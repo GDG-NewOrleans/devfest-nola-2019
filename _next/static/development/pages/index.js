@@ -553,7 +553,7 @@ var MenuLink = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div.wit
 var NavMobileContainer = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div.withConfig({
   displayName: "MobileNav__NavMobileContainer",
   componentId: "sc-7sxiv9-2"
-})(["position:relative;@media (min-width:800px){display:none;}"]);
+})(["position:relative;@media (min-width:885px){display:none;}"]);
 var MobileTopNav = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div.withConfig({
   displayName: "MobileNav__MobileTopNav",
   componentId: "sc-7sxiv9-3"
@@ -672,7 +672,7 @@ function (_Component) {
         __self: this
       }, "Speakers")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
         passHref: true,
-        href: "/#sponsors",
+        href: "/#schedule",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98
@@ -683,6 +683,21 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98
+        },
+        __self: this
+      }, "Talks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        passHref: true,
+        href: "/#sponsors",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileNavLink, {
+        onClick: this.closeMenu,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
         },
         __self: this
       }, "Sponsors")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -690,14 +705,14 @@ function (_Component) {
         href: "/Location",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileNavLink, {
         onClick: this.closeMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, "Location")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -705,14 +720,14 @@ function (_Component) {
         href: "/conduct",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileNavLink, {
         onClick: this.closeMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }, "Code of Conduct"))));
@@ -754,7 +769,7 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Navbar.js"
 
 
 
-var NAV_BREAKPOINT = '800px';
+var NAV_BREAKPOINT = '885px';
 var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Navbar__StyledLink",
   componentId: "tt3gyf-0"
@@ -762,7 +777,7 @@ var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.wit
 var Nav = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].nav.withConfig({
   displayName: "Navbar__Nav",
   componentId: "tt3gyf-1"
-})(["background:white;position:fixed;top:0;width:100%;z-index:5;"]);
+})(["background:rgba(255,255,255,0.97);position:fixed;top:0;width:100%;z-index:5;"]);
 var NavDesktopContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Navbar__NavDesktopContainer",
   componentId: "tt3gyf-2"
@@ -853,7 +868,7 @@ var Navbar = function Navbar() {
     __self: this
   }, "Speakers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     passHref: true,
-    href: "/#sponsors",
+    href: "/#schedule",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
@@ -863,6 +878,20 @@ var Navbar = function Navbar() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
+    },
+    __self: this
+  }, "Talks")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    passHref: true,
+    href: "/#sponsors",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLink, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
     },
     __self: this
   }, "Sponsors")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -870,13 +899,13 @@ var Navbar = function Navbar() {
     href: "/location",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLink, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 61
     },
     __self: this
   }, "Location")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -884,13 +913,13 @@ var Navbar = function Navbar() {
     href: "/conduct",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLink, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -900,13 +929,13 @@ var Navbar = function Navbar() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MobileNav__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 66
     },
     __self: this
   }));
@@ -2453,10 +2482,10 @@ module.exports = [{"id":"diana","name":"Diana Rodríguez","image":"/static/diana
 /*!********************************!*\
   !*** ./data/sponsors.yml.json ***!
   \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"},{"id":"wtmnola","name":"Women Techmakers New Orleans","link":"https://www.meetup.com/gdg-new-orleans/","logo":"/static/WTM_logo.png","tier":"silver","width":"350px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"ir","name":"Infinite Red","link":"https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"}];
+module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"iseatz","name":"iSeatz","link":"https://www.iseatz.com/","logo":"/static/iseatz-red-back-logo.svg","tier":"gold","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"},{"id":"cotingasoft","name":"CotingaSoft","link":"https://cotingasoft.com/","logo":"/static/cotingasoft.png","tier":"silver","width":"270px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"ir","name":"Infinite Red","link":"https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"}];
 
 /***/ }),
 
