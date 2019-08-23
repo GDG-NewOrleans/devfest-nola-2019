@@ -40,6 +40,14 @@
     "width": "270px"
   },
   {
+    "id": "rasa",
+    "name": "Rasa.io",
+    "link": "https://rasa.io/",
+    "logo": "/static/rasa.png",
+    "tier": "silver",
+    "width": "320px"
+  },
+  {
     "id": "ir",
     "name": "Infinite Red",
     "link": "https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19",
