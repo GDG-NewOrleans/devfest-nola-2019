@@ -1486,30 +1486,86 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/SponsorLis
 
 
 
+
 var List = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "SponsorList__List",
   componentId: "ctxudo-0"
 })(["display:flex;align-items:center;justify-content:space-evenly;flex-wrap:wrap;"]);
+var Heading = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h2.withConfig({
+  displayName: "SponsorList__Heading",
+  componentId: "ctxudo-1"
+})(["text-align:center;"]);
 
-var SponsorList = function SponsorList(_ref) {
-  var sponsors = _ref.sponsors;
-  var sponsorList = sponsors.map(function (sponsor) {
+var getSponsorList = function getSponsorList(sponsors) {
+  return sponsors.map(function (sponsor) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Sponsor__WEBPACK_IMPORTED_MODULE_2__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, sponsor, {
       key: sponsor.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 18
       },
       __self: this
     }));
   });
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(List, {
+};
+
+var SponsorList = function SponsorList(_ref) {
+  var sponsors = _ref.sponsors;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
     },
     __self: this
-  }, sponsorList);
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Platinum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(List, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, getSponsorList(sponsors.platinum)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Gold"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(List, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, getSponsorList(sponsors.gold)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Silver"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(List, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, getSponsorList(sponsors.silver)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Bronze"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(List, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, getSponsorList(sponsors.bronze)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SponsorList);
@@ -2482,10 +2538,10 @@ module.exports = [{"id":"diana","name":"Diana Rodríguez","image":"/static/diana
 /*!********************************!*\
   !*** ./data/sponsors.yml.json ***!
   \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, default */
+/*! exports provided: platinum, gold, silver, bronze, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"iseatz","name":"iSeatz","link":"https://www.iseatz.com/","logo":"/static/iseatz-red-back-logo.svg","tier":"gold","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"},{"id":"cotingasoft","name":"CotingaSoft","link":"https://cotingasoft.com/","logo":"/static/cotingasoft.png","tier":"silver","width":"270px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"rasa","name":"Rasa.io","link":"https://rasa.io/","logo":"/static/rasa.png","tier":"silver","width":"320px"},{"id":"ir","name":"Infinite Red","link":"https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"}];
+module.exports = {"platinum":[{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"}],"gold":[{"id":"iseatz","name":"iSeatz","link":"https://www.iseatz.com/","logo":"/static/iseatz-red-back-logo.svg","tier":"gold","width":"270px"},{"id":"loyola","name":"Loyola Center for Entrepreneurship and Community Development","link":"http://business.loyno.edu/cecd","logo":"/static/loyola.png","tier":"gold","width":"450px"}],"silver":[{"id":"cotingasoft","name":"CotingaSoft","link":"https://cotingasoft.com/","logo":"/static/cotingasoft.png","tier":"silver","width":"270px"},{"id":"mark","name":"mark","link":"http://mark.institute","logo":"/static/marklogo.png","tier":"silver","width":"270px"},{"id":"rasa","name":"Rasa.io","link":"https://rasa.io/","logo":"/static/rasa.png","tier":"silver","width":"320px"},{"id":"lookfar","name":"Lookfar Labs","link":"http://lookfar.com/","logo":"/static/lookfar.png","tier":"silver","width":"320px"}],"bronze":[{"id":"ir","name":"Infinite Red","link":"https://infinite.red/?utm_medium=sponsorship&utm_source=website&utm_campaign=devfest19","logo":"/static/ir_logo_1000w.png","tier":"bronze","width":"270px"},{"id":"accruent","name":"Accruent","link":"https://www.accruent.com/about-us/careers","logo":"/static/accruent.png","tier":"bronze","width":"270px"}]};
 
 /***/ }),
 
@@ -10490,12 +10546,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -11163,12 +11219,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_4cbc3223160d403191c6 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -11776,12 +11832,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_4cbc3223160d403191c6 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -11996,12 +12052,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -12462,6 +12518,20 @@ function onClickOutsideHOC(WrappedComponent, config) {
         throw new Error("WrappedComponent: " + componentName + " lacks a handleClickOutside(event) function for processing outside click events.");
       };
 
+      _this.__getComponentNode = function () {
+        var instance = _this.getInstance();
+
+        if (config && typeof config.setClickOutsideRef === 'function') {
+          return config.setClickOutsideRef()(instance);
+        }
+
+        if (typeof instance.setClickOutsideRef === 'function') {
+          return instance.setClickOutsideRef();
+        }
+
+        return Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["findDOMNode"])(instance);
+      };
+
       _this.enableOnClickOutside = function () {
         if (typeof document === 'undefined' || enabledInstances[_this._uid]) {
           return;
@@ -12567,14 +12637,14 @@ function onClickOutsideHOC(WrappedComponent, config) {
         }
       }
 
-      this.componentNode = Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["findDOMNode"])(this.getInstance()); // return early so we dont initiate onClickOutside
+      this.componentNode = this.__getComponentNode(); // return early so we dont initiate onClickOutside
 
       if (this.props.disableOnClickOutside) return;
       this.enableOnClickOutside();
     };
 
     _proto.componentDidUpdate = function componentDidUpdate() {
-      this.componentNode = Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["findDOMNode"])(this.getInstance());
+      this.componentNode = this.__getComponentNode();
     };
     /**
      * Remove all document's event listeners for this component
@@ -12630,12 +12700,12 @@ function onClickOutsideHOC(WrappedComponent, config) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -16783,13 +16853,33 @@ module.exports = {
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
-/*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_6dc2816e14fab51b8269 ***!
-  \******************************************************************************************************/
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/webpack/buildin/global.js");
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
 
 /***/ }),
 
@@ -17120,14 +17210,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_6dc2816e14fab51b8269":
+/***/ "dll-reference dll_4cbc3223160d403191c6":
 /*!*******************************************!*\
-  !*** external "dll_6dc2816e14fab51b8269" ***!
+  !*** external "dll_4cbc3223160d403191c6" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_6dc2816e14fab51b8269;
+module.exports = dll_4cbc3223160d403191c6;
 
 /***/ })
 
