@@ -18,6 +18,18 @@ gold:
     logo: /static/loyola.png
     tier: gold
     width: 450px
+  - id: CGI
+    name: CGI
+    link: https://www.cgi.com/us/en-us/onshore-delivery/lafayette
+    logo: /static/CGI.jpg
+    tier: gold
+    width: 270px
+  - id: CDIT
+    name: CDIT Solutions
+    link: https://cditsolutions.com/
+    logo: /static/CDIT.png
+    tier: gold
+    width: 250px
 silver:
   - id: cotingasoft
     name: CotingaSoft
@@ -55,4 +67,16 @@ bronze:
     link: https://www.accruent.com/about-us/careers
     logo: /static/accruent.png
     tier: bronze
-    width: 270px
+    width: 290px
+  - id: leafly
+    name: Leafly
+    link: https://www.leafly.com/
+    logo: /static/leafly.png
+    tier: bronze
+    width: 250px
+  - id: datadog
+    name: Datadog
+    link: https://www.datadoghq.com/
+    logo: /static/datadog.png
+    tier: bronze
+    width: 230px
