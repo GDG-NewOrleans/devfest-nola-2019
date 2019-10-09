@@ -97,7 +97,7 @@ class MobileMenu extends Component {
           <Link passHref href="/#speakers"><MobileNavLink onClick={this.closeMenu} >Speakers</MobileNavLink></Link>
           <Link passHref href="/#schedule"><MobileNavLink onClick={this.closeMenu} >Talks</MobileNavLink></Link>
           <Link passHref href="/#sponsors"><MobileNavLink onClick={this.closeMenu} >Sponsors</MobileNavLink></Link>
-          <Link passHref href="/Location"><MobileNavLink onClick={this.closeMenu} >Location</MobileNavLink></Link>
+          <Link passHref href="/location"><MobileNavLink onClick={this.closeMenu} >Location</MobileNavLink></Link>
           <Link passHref href="/conduct"><MobileNavLink onClick={this.closeMenu} >Code of Conduct</MobileNavLink></Link>
         </MobileLinks>
       </NavMobileContainer>
