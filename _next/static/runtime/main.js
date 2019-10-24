@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/sia1/Projects/devfest-nola-2019/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/sia/Projects/devfest-nola-2019/.next");
       return error;
     }
   };
@@ -9808,12 +9808,12 @@ exports.default = withRouter;
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -10014,12 +10014,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -10627,12 +10627,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -10847,12 +10847,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -11126,12 +11126,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -12784,14 +12784,14 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "dll-reference dll_4cbc3223160d403191c6":
+/***/ "dll-reference dll_9888d6adfe882d22c773":
 /*!*******************************************!*\
-  !*** external "dll_4cbc3223160d403191c6" ***!
+  !*** external "dll_9888d6adfe882d22c773" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_4cbc3223160d403191c6;
+module.exports = dll_9888d6adfe882d22c773;
 
 /***/ })
 

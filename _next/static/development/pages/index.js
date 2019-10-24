@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./elements/ProfileImage */ "./components/elements/ProfileImage.js");
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Emcee.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Emcee.js";
 
 
 
@@ -134,7 +134,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _elements_Lead__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./elements/Lead */ "./components/elements/Lead.js");
 /* harmony import */ var _icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js";
+/* harmony import */ var _elements_Anchor__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./elements/Anchor */ "./components/elements/Anchor.js");
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Footer.js";
+
 
 
 
@@ -145,13 +147,13 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Lead__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, "DevFest New Orleans 2019 is organized by"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -160,7 +162,7 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -172,14 +174,29 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), " GDG New Orleans"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Anchor__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    href: "https://www.gdgneworleans.com/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "gdgneworleans.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -191,7 +208,7 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 15
     },
     __self: this
   }, "Register now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -201,7 +218,7 @@ var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Footer.js"
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 16
     },
     __self: this
   }, "Join us on Meetup")));
@@ -225,7 +242,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Layout.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Layout.js";
 
 
 
@@ -535,7 +552,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/MobileNav.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/MobileNav.js";
 
 
 
@@ -688,7 +705,7 @@ function (_Component) {
         __self: this
       }, "Sponsors")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
         passHref: true,
-        href: "/Location",
+        href: "/location",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 100
@@ -747,7 +764,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./MobileNav */ "./components/MobileNav.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Navbar.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Navbar.js";
 
 
 
@@ -933,7 +950,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Person/PersonCard.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Person/PersonCard.js";
 
 
 
@@ -1056,42 +1073,29 @@ var PersonCard = function PersonCard(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _PersonCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PersonCard */ "./components/Person/PersonCard.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _PersonCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PersonCard */ "./components/Person/PersonCard.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Person/PersonList.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n    .card:nth-child(4n+1) svg { fill: ", ";}\n    .card:nth-child(4n+1) svg:hover { fill: ", "; }\n    .card:nth-child(4n+1) img { border: 8px solid ", "; }\n    .card:nth-child(4n+2) svg { fill: ", "; }\n    .card:nth-child(4n+2) svg:hover { fill: ", "; }\n    .card:nth-child(4n+2) img { border: 8px solid ", "; }\n    .card:nth-child(4n+3) svg { fill: ", "; }\n    .card:nth-child(4n+3) svg:hover { fill: ", "; }\n    .card:nth-child(4n+3) img { border: 8px solid ", "; }\n    .card:nth-child(4n+4) svg { fill: ", "; }\n    .card:nth-child(4n+4) svg:hover { fill: ", "; }\n    .card:nth-child(4n+4) img { border: 8px solid ", "; }\n  "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Person/PersonList.js";
 
 
 
 
-var StyledCardDeck = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
+var StyledCardDeck = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "PersonList__StyledCardDeck",
   componentId: "sc-9aegl2-0"
-})(["display:flex;flex-wrap:wrap;justify-content:center;img{border:8px solid white;}svg{fill:white;}svg:hover{fill:", ";}", ""], _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.lightGrey, function (props) {
-  return props.rainbow && Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["css"])(_templateObject(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.redLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellowLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.greenLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blueLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue);
+})(["display:flex;flex-wrap:wrap;justify-content:center;img{border:8px solid white;}svg{fill:white;}svg:hover{fill:", ";}", ""], _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.lightGrey, function (props) {
+  return props.rainbow && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])([".card:nth-child(4n+1) svg{fill:", ";}.card:nth-child(4n+1) svg:hover{fill:", ";}.card:nth-child(4n+1) img{border:8px solid ", ";}.card:nth-child(4n+2) svg{fill:", ";}.card:nth-child(4n+2) svg:hover{fill:", ";}.card:nth-child(4n+2) img{border:8px solid ", ";}.card:nth-child(4n+3) svg{fill:", ";}.card:nth-child(4n+3) svg:hover{fill:", ";}.card:nth-child(4n+3) img{border:8px solid ", ";}.card:nth-child(4n+4) svg{fill:", ";}.card:nth-child(4n+4) svg:hover{fill:", ";}.card:nth-child(4n+4) img{border:8px solid ", ";}"], _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.redLight, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.yellowLight, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.greenLight, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.blueLight, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.blue);
 });
 
 var PersonList = function PersonList(_ref) {
   var people = _ref.people,
       rainbow = _ref.rainbow;
   var cards = people.map(function (person) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_PersonCard__WEBPACK_IMPORTED_MODULE_4__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, person, {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_PersonCard__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, person, {
       key: person.id,
       __source: {
         fileName: _jsxFileName,
@@ -1100,7 +1104,7 @@ var PersonList = function PersonList(_ref) {
       __self: this
     }));
   });
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledCardDeck, {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledCardDeck, {
     rainbow: rainbow,
     __source: {
       fileName: _jsxFileName,
@@ -1131,7 +1135,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Schedule.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Schedule.js";
 
 
 
@@ -1273,7 +1277,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_linkedin_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/linkedin-in.svg */ "./components/icons/linkedin-in.svg");
 /* harmony import */ var _icons_globe_africa_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/globe-africa.svg */ "./components/icons/globe-africa.svg");
 /* harmony import */ var _icons_pen_nib_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/pen-nib.svg */ "./components/icons/pen-nib.svg");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/SocialLink.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/SocialLink.js";
 
 
 
@@ -1401,7 +1405,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Sponsor.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Sponsor.js";
 
 
 var Image = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
@@ -1458,7 +1462,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Sponsor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sponsor */ "./components/Sponsor.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/SponsorList.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/SponsorList.js";
 
 
 
@@ -1561,7 +1565,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/Tito.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/Tito.js";
 
 
 
@@ -1611,7 +1615,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/elements/Anchor.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/elements/Anchor.js";
 
 
 
@@ -1658,7 +1662,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/elements/AnchorButton.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/elements/AnchorButton.js";
 
 
 
@@ -1765,7 +1769,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _nola_google_skyline_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nola-google-skyline.svg */ "./components/elements/nola-google-skyline.svg");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/components/elements/Section.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/components/elements/Section.js";
 
 
 
@@ -2632,17 +2636,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "./
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "./node_modules/core-js/library/fn/object/define-properties.js");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -2651,17 +2644,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "./node_modules/core-js/library/fn/object/define-property.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/freeze */ "./node_modules/core-js/library/fn/object/freeze.js");
 
 /***/ }),
 
@@ -3316,36 +3298,6 @@ function _slicedToArray(arr, i) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js ***!
-  \**********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _taggedTemplateLiteral; });
-/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
-/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/freeze */ "./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js");
-/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__);
-
-
-function _taggedTemplateLiteral(strings, raw) {
-  if (!raw) {
-    raw = strings.slice(0);
-  }
-
-  return _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default()(strings, {
-    raw: {
-      value: _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(raw)
-    }
-  }));
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
 /*!******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
@@ -3774,22 +3726,6 @@ module.exports = function create(P, D) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/fn/object/define-properties.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/core-js/library/fn/object/define-properties.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.define-properties */ "./node_modules/core-js/library/modules/es6.object.define-properties.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function defineProperties(T, D) {
-  return $Object.defineProperties(T, D);
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/library/fn/object/define-property.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/define-property.js ***!
@@ -3802,19 +3738,6 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/cor
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/fn/object/freeze.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/core-js/library/fn/object/freeze.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.freeze */ "./node_modules/core-js/library/modules/es6.object.freeze.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.freeze;
 
 
 /***/ }),
@@ -6473,20 +6396,6 @@ $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create 
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/es6.object.define-properties.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/es6.object.define-properties.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
-$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ "./node_modules/core-js/library/modules/_object-dps.js") });
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/library/modules/es6.object.define-property.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.define-property.js ***!
@@ -6497,26 +6406,6 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./no
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f });
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/modules/es6.object.freeze.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/es6.object.freeze.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.5 Object.freeze(O)
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var meta = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").onFreeze;
-
-__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('freeze', function ($freeze) {
-  return function freeze(it) {
-    return $freeze && isObject(it) ? $freeze(meta(it)) : it;
-  };
-});
 
 
 /***/ }),
@@ -9435,10 +9324,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js!./":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10522,12 +10411,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -11195,12 +11084,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -11808,12 +11697,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -12028,12 +11917,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -12676,12 +12565,12 @@ function onClickOutsideHOC(WrappedComponent, config) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_9888d6adfe882d22c773 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9888d6adfe882d22c773 */ "dll-reference dll_9888d6adfe882d22c773"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -16918,7 +16807,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "/Users/sia1/Projects/devfest-nola-2019/pages/index.js";
+var _jsxFileName = "/Users/sia/Projects/devfest-nola-2019/pages/index.js";
 
 
 
@@ -17000,7 +16889,17 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
       lineNumber: 37
     },
     __self: this
-  }, "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "DevFest New Orleans is a single-day, single-track, inclusive conference for all developers. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    href: "https://www.gdgneworleans.com/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    color: "white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "GDG New Orleans and Women Techmakers New Orleans"), " invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -17154,25 +17053,25 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1.withCon
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************/
+/*!*********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsia%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia1%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fsia%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fsia%2FProjects%2Fdevfest-nola-2019%2Fpages%2Findex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_4cbc3223160d403191c6":
+/***/ "dll-reference dll_9888d6adfe882d22c773":
 /*!*******************************************!*\
-  !*** external "dll_4cbc3223160d403191c6" ***!
+  !*** external "dll_9888d6adfe882d22c773" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_4cbc3223160d403191c6;
+module.exports = dll_9888d6adfe882d22c773;
 
 /***/ })
 
